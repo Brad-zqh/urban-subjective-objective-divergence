@@ -1,0 +1,538 @@
+{
+  "registry_schema": "v1",
+  "generated_at_utc": "2026-09-10T16:34:37.471000+00:00",
+  "analysis_version": "V211",
+  "proxy_analysis": true,
+  "formal": false,
+  "figures": [
+    {
+      "figure_folder": "v211_signed_delta_sensitivity_12panel",
+      "label": "Signed S-O representation sensitivity",
+      "panels": 12,
+      "declared_source_table_count": 5
+    },
+    {
+      "figure_folder": "v211_explainability_flagship_20panel_v2",
+      "label": "Explainability flagship",
+      "panels": 20,
+      "declared_source_table_count": 4
+    },
+    {
+      "figure_folder": "v211_explainability_composite_20panel",
+      "label": "Explainability composite",
+      "panels": 20,
+      "declared_source_table_count": 3
+    },
+    {
+      "figure_folder": "v211_full_coefficient_atlas_20panel",
+      "label": "Full coefficient atlas",
+      "panels": 20,
+      "declared_source_table_count": 1
+    },
+    {
+      "figure_folder": "v211_local_coefficient_20panel",
+      "label": "Local deviation coefficients",
+      "panels": 20,
+      "declared_source_table_count": 1
+    },
+    {
+      "figure_folder": "v211_spatiotemporal_20panel",
+      "label": "Spatiotemporal predictions",
+      "panels": 20,
+      "declared_source_table_count": 1
+    },
+    {
+      "figure_folder": "v211_scenario_inequality_20panel",
+      "label": "Scenario and SES atlas",
+      "panels": 20,
+      "declared_source_table_count": 2
+    },
+    {
+      "figure_folder": "v211_scenario_flagship_15panel",
+      "label": "Scenario flagship",
+      "panels": 15,
+      "declared_source_table_count": 3
+    },
+    {
+      "figure_folder": "v211_inequality_flagship_15panel",
+      "label": "Inequality flagship",
+      "panels": 15,
+      "declared_source_table_count": 2
+    },
+    {
+      "figure_folder": "v211_modality_ablation_20panel",
+      "label": "Modality ablation",
+      "panels": 20,
+      "declared_source_table_count": 2
+    },
+    {
+      "figure_folder": "v211_training_ablation_20panel",
+      "label": "Training diagnostics",
+      "panels": 20,
+      "declared_source_table_count": 3
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_nature_16panel",
+      "label": "Graph perturbation",
+      "panels": 16,
+      "declared_source_table_count": 2
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_spatiotemporal_20panel",
+      "label": "Graph perturbation spatiotemporal",
+      "panels": 20,
+      "declared_source_table_count": 3
+    },
+    {
+      "figure_folder": "v211_model_perturbation_moderation_20panel",
+      "label": "Perturbation moderation",
+      "panels": 20,
+      "declared_source_table_count": 2
+    },
+    {
+      "figure_folder": "v211_feature_coefficients_O_20panel",
+      "label": "Objective coefficient channel",
+      "panels": 20,
+      "declared_source_table_count": 1
+    },
+    {
+      "figure_folder": "v211_feature_coefficients_S_20panel",
+      "label": "Subjective coefficient channel",
+      "panels": 20,
+      "declared_source_table_count": 1
+    },
+    {
+      "figure_folder": "v211_feature_coefficients_SminusO_20panel",
+      "label": "Signed S-O coefficient channel",
+      "panels": 20,
+      "declared_source_table_count": 1
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "label": "Planning strategy atlas",
+      "panels": 20,
+      "declared_source_table_count": 9
+    }
+  ],
+  "tables": [
+    {
+      "figure_folder": "v211_signed_delta_sensitivity_12panel",
+      "workspace_relative_path": "figures/v211_signed_delta_sensitivity_12panel/source_annual_metrics.csv",
+      "intended_release_path": "source_data/v211_signed_delta_sensitivity_12panel/source_annual_metrics.csv",
+      "bytes": 2054,
+      "sha256": "9fa36c4c60bb14b2ebfe9a5680ddffa513630f5e9759526a1be0633a02057bbe",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_signed_delta_sensitivity_12panel",
+      "workspace_relative_path": "figures/v211_signed_delta_sensitivity_12panel/source_fold_metrics.csv",
+      "intended_release_path": "source_data/v211_signed_delta_sensitivity_12panel/source_fold_metrics.csv",
+      "bytes": 8492,
+      "sha256": "1bff7b766cd20f4e9d0c7fb37dc2248d3e96273d10211ab6eab8be070eb99976",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_signed_delta_sensitivity_12panel",
+      "workspace_relative_path": "figures/v211_signed_delta_sensitivity_12panel/source_outer_test_predictions.csv",
+      "intended_release_path": "source_data/v211_signed_delta_sensitivity_12panel/source_outer_test_predictions.csv",
+      "bytes": 5467163,
+      "sha256": "d11c6ac3c80f7d5b3eba8ed930de792989751e838584092899e6daa6c2affb67",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_signed_delta_sensitivity_12panel",
+      "workspace_relative_path": "figures/v211_signed_delta_sensitivity_12panel/source_panel_statistics.csv",
+      "intended_release_path": "source_data/v211_signed_delta_sensitivity_12panel/source_panel_statistics.csv",
+      "bytes": 695,
+      "sha256": "e95f00f8b298bc7d0146fec15001d4403de55e3c9e816836c4f2ff5f99ae96c4",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_signed_delta_sensitivity_12panel",
+      "workspace_relative_path": "figures/v211_signed_delta_sensitivity_12panel/source_partition_metrics.csv",
+      "intended_release_path": "source_data/v211_signed_delta_sensitivity_12panel/source_partition_metrics.csv",
+      "bytes": 1802,
+      "sha256": "2690db1d458d3e87a328b04c704b0c10b39e840ffa9da96812a4c50a40b0d039",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_flagship_20panel_v2",
+      "workspace_relative_path": "figures/v211_explainability_flagship_20panel_v2/source_all_30_coefficient_summary.csv",
+      "intended_release_path": "source_data/v211_explainability_flagship_20panel_v2/source_all_30_coefficient_summary.csv",
+      "bytes": 4097,
+      "sha256": "16260a2d7b7612186f77b1426fd54b644d4c77f2c4a52a0080592d0ef3f4f3c1",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_flagship_20panel_v2",
+      "workspace_relative_path": "figures/v211_explainability_flagship_20panel_v2/source_contrast_correlation.csv",
+      "intended_release_path": "source_data/v211_explainability_flagship_20panel_v2/source_contrast_correlation.csv",
+      "bytes": 2006,
+      "sha256": "9810cc2e27b3d9fa770d915b3135ab39a5964f95e370a352e97f2438101df2ad",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_flagship_20panel_v2",
+      "workspace_relative_path": "figures/v211_explainability_flagship_20panel_v2/source_map_panel_audit.csv",
+      "intended_release_path": "source_data/v211_explainability_flagship_20panel_v2/source_map_panel_audit.csv",
+      "bytes": 1017,
+      "sha256": "cb19e8f2c7ed21353f8ed0c59ff08d3bc3a6af3d35a171fee28f105ef0f6e813",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_flagship_20panel_v2",
+      "workspace_relative_path": "figures/v211_explainability_flagship_20panel_v2/source_temporal_channel_matrix.csv",
+      "intended_release_path": "source_data/v211_explainability_flagship_20panel_v2/source_temporal_channel_matrix.csv",
+      "bytes": 6624,
+      "sha256": "4674040a302b51b5ecea36a6aa80f8fe1980dc7411d63b8a0cd8e674c87d125a",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_composite_20panel",
+      "workspace_relative_path": "figures/v211_explainability_composite_20panel/source_2023_scheme_averaged_top18.csv",
+      "intended_release_path": "source_data/v211_explainability_composite_20panel/source_2023_scheme_averaged_top18.csv",
+      "bytes": 200202,
+      "sha256": "9bacf0a730994b1b76b20c738f4e320ebb7532a2cd12cef54a2d5a80e10e54ed",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_composite_20panel",
+      "workspace_relative_path": "figures/v211_explainability_composite_20panel/source_all_30_coefficient_rankings.csv",
+      "intended_release_path": "source_data/v211_explainability_composite_20panel/source_all_30_coefficient_rankings.csv",
+      "bytes": 3660,
+      "sha256": "0b089c3fcafda7e0ff870c311150243a4a0bb9f2fa12ed3c8093a92fc45adf7d",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_explainability_composite_20panel",
+      "workspace_relative_path": "figures/v211_explainability_composite_20panel/source_map_panel_audit.csv",
+      "intended_release_path": "source_data/v211_explainability_composite_20panel/source_map_panel_audit.csv",
+      "bytes": 1210,
+      "sha256": "0fb141fa16fcf23d4fb84b3b285fd98531f4d7282ecad4548348c00140ab7c91",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_full_coefficient_atlas_20panel",
+      "workspace_relative_path": "figures/v211_full_coefficient_atlas_20panel/source_data_2023_scheme_average.csv",
+      "intended_release_path": "source_data/v211_full_coefficient_atlas_20panel/source_data_2023_scheme_average.csv",
+      "bytes": 224806,
+      "sha256": "bf109819a133930b61ec83e2fbb93431b595d8660b2ccb90a6ab693733111ff1",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_local_coefficient_20panel",
+      "workspace_relative_path": "figures/v211_local_coefficient_20panel/source_scheme_averaged_delta_coefficients.csv",
+      "intended_release_path": "source_data/v211_local_coefficient_20panel/source_scheme_averaged_delta_coefficients.csv",
+      "bytes": 555956,
+      "sha256": "e495bf4f033becf1d2d4f383151e4c422fd69b5d569f6f7d3ecb2fb71ba22a1b",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_spatiotemporal_20panel",
+      "workspace_relative_path": "figures/v211_spatiotemporal_20panel/source_scheme_averaged_predictions.csv",
+      "intended_release_path": "source_data/v211_spatiotemporal_20panel/source_scheme_averaged_predictions.csv",
+      "bytes": 464455,
+      "sha256": "c5ae0ee022c94d1b0f0892363f384185d2401bdfb70745dd613e90e2a05a215b",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_scenario_inequality_20panel",
+      "workspace_relative_path": "figures/v211_scenario_inequality_20panel/source_scenario_predictions.csv",
+      "intended_release_path": "source_data/v211_scenario_inequality_20panel/source_scenario_predictions.csv",
+      "bytes": 37445037,
+      "sha256": "e7f5df0025840a2a19943e380f4bcb4f0384b0b3aa1af15402669609787db060",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_scenario_inequality_20panel",
+      "workspace_relative_path": "figures/v211_scenario_inequality_20panel/source_ses_prediction_disparity.csv",
+      "intended_release_path": "source_data/v211_scenario_inequality_20panel/source_ses_prediction_disparity.csv",
+      "bytes": 23974,
+      "sha256": "9c312b6a3642de66910ec1c5777f00adc746383fde77cae3da61120f9f1bbe29",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_scenario_flagship_15panel",
+      "workspace_relative_path": "figures/v211_scenario_flagship_15panel/source_2023_spatial_effects.csv",
+      "intended_release_path": "source_data/v211_scenario_flagship_15panel/source_2023_spatial_effects.csv",
+      "bytes": 320937,
+      "sha256": "9cc266c96ebcf80bec0e7e4fad2ad44dbcb4e5af997e2d0ddaafa7536e4fb594",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_scenario_flagship_15panel",
+      "workspace_relative_path": "figures/v211_scenario_flagship_15panel/source_fold_summary.csv",
+      "intended_release_path": "source_data/v211_scenario_flagship_15panel/source_fold_summary.csv",
+      "bytes": 711,
+      "sha256": "306125f5fc1bb1f6115b2bdfa09685cd19a0b936a6b3f4209248c5416b24acbb",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_scenario_flagship_15panel",
+      "workspace_relative_path": "figures/v211_scenario_flagship_15panel/source_map_audit.csv",
+      "intended_release_path": "source_data/v211_scenario_flagship_15panel/source_map_audit.csv",
+      "bytes": 466,
+      "sha256": "3c3be21efab09305c06995e0a5d222f684ac3a319750e536e63132e40361627a",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_inequality_flagship_15panel",
+      "workspace_relative_path": "figures/v211_inequality_flagship_15panel/source_all_scheme_ses_gaps.csv",
+      "intended_release_path": "source_data/v211_inequality_flagship_15panel/source_all_scheme_ses_gaps.csv",
+      "bytes": 23974,
+      "sha256": "9c312b6a3642de66910ec1c5777f00adc746383fde77cae3da61120f9f1bbe29",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_inequality_flagship_15panel",
+      "workspace_relative_path": "figures/v211_inequality_flagship_15panel/source_cross_scheme_summary.csv",
+      "intended_release_path": "source_data/v211_inequality_flagship_15panel/source_cross_scheme_summary.csv",
+      "bytes": 1111,
+      "sha256": "ecb1429f03adc6ef26340852d5d7e43521d273d1c610337368ef64f77c03a05e",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_modality_ablation_20panel",
+      "workspace_relative_path": "figures/v211_modality_ablation_20panel/source_all_fold_metrics.csv",
+      "intended_release_path": "source_data/v211_modality_ablation_20panel/source_all_fold_metrics.csv",
+      "bytes": 19269,
+      "sha256": "df74e495773bced81cc054b329f26f50a879c714c0648843884c80008e057315",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_modality_ablation_20panel",
+      "workspace_relative_path": "figures/v211_modality_ablation_20panel/source_panel_statistics.csv",
+      "intended_release_path": "source_data/v211_modality_ablation_20panel/source_panel_statistics.csv",
+      "bytes": 2591,
+      "sha256": "c53f9f3bf237c5bc2e7d66b6abc35a806598c8640e45d67af6da2fbbf7b109cb",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_training_ablation_20panel",
+      "workspace_relative_path": "figures/v211_training_ablation_20panel/source_fold_metrics.csv",
+      "intended_release_path": "source_data/v211_training_ablation_20panel/source_fold_metrics.csv",
+      "bytes": 6485,
+      "sha256": "95c8e785d5b6dae60fc7c3f216f9a92a01bde81f6b234b206708b3bf3de5b86a",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_training_ablation_20panel",
+      "workspace_relative_path": "figures/v211_training_ablation_20panel/source_generalization_gap_summary.csv",
+      "intended_release_path": "source_data/v211_training_ablation_20panel/source_generalization_gap_summary.csv",
+      "bytes": 370,
+      "sha256": "0dfc637c5025e40348341e0c419e6d5c429681664f522a1293c41e237a5ceb4c",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_training_ablation_20panel",
+      "workspace_relative_path": "figures/v211_training_ablation_20panel/source_panel_statistics.csv",
+      "intended_release_path": "source_data/v211_training_ablation_20panel/source_panel_statistics.csv",
+      "bytes": 2053,
+      "sha256": "f47d100ad69e2963e626750ffa80fb3957698db040d090d1b78231c841ec814e",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_nature_16panel",
+      "workspace_relative_path": "figures/v211_graph_perturbation_nature_16panel/source_all_outer_test_rows.parquet",
+      "intended_release_path": "source_data/v211_graph_perturbation_nature_16panel/source_all_outer_test_rows.parquet",
+      "bytes": 1902617,
+      "sha256": "a4471f14acaa0b2aa8bf2ca3e206e270d177172033bb94fba4d49e319d87f116",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_nature_16panel",
+      "workspace_relative_path": "figures/v211_graph_perturbation_nature_16panel/source_panel_statistics.csv",
+      "intended_release_path": "source_data/v211_graph_perturbation_nature_16panel/source_panel_statistics.csv",
+      "bytes": 1821,
+      "sha256": "1e3c45b5c0814400024fbc92505ea52393db2068524f178ce8ea7896ca32a8c8",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_spatiotemporal_20panel",
+      "workspace_relative_path": "figures/v211_graph_perturbation_spatiotemporal_20panel/source_2023_scheme_averaged_spatial_effects.csv",
+      "intended_release_path": "source_data/v211_graph_perturbation_spatiotemporal_20panel/source_2023_scheme_averaged_spatial_effects.csv",
+      "bytes": 387189,
+      "sha256": "2c81ee51682f05912ce2055d2de5c9ee52a616e2c7dd19c9132abcf8a1de13d8",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_spatiotemporal_20panel",
+      "workspace_relative_path": "figures/v211_graph_perturbation_spatiotemporal_20panel/source_annual_tract_intervals.csv",
+      "intended_release_path": "source_data/v211_graph_perturbation_spatiotemporal_20panel/source_annual_tract_intervals.csv",
+      "bytes": 6479,
+      "sha256": "b0c5a7b35944adf6060b2a642e3d2dbd68281eb8983cd3538f372c53c8ac36b5",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_graph_perturbation_spatiotemporal_20panel",
+      "workspace_relative_path": "figures/v211_graph_perturbation_spatiotemporal_20panel/source_distribution_and_fold_summaries.csv",
+      "intended_release_path": "source_data/v211_graph_perturbation_spatiotemporal_20panel/source_distribution_and_fold_summaries.csv",
+      "bytes": 1484,
+      "sha256": "21307840bc4fb0ecee0796bc364af6189fcb968a72e81698b235b780b4064843",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_model_perturbation_moderation_20panel",
+      "workspace_relative_path": "figures/v211_model_perturbation_moderation_20panel/source_cubic_response_curves.csv",
+      "intended_release_path": "source_data/v211_model_perturbation_moderation_20panel/source_cubic_response_curves.csv",
+      "bytes": 692049,
+      "sha256": "17611c502b56a0810022c74a82250a819244312bdff445473f57a98c36041b21",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_model_perturbation_moderation_20panel",
+      "workspace_relative_path": "figures/v211_model_perturbation_moderation_20panel/source_p10_p90_contrasts.csv",
+      "intended_release_path": "source_data/v211_model_perturbation_moderation_20panel/source_p10_p90_contrasts.csv",
+      "bytes": 4081,
+      "sha256": "405900ed4df83e414b7e3ebe819fd33c44400743add4124bfa0ce5dcd054aa3a",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_feature_coefficients_O_20panel",
+      "workspace_relative_path": "figures/v211_feature_coefficients_O_20panel/source_scheme_averaged_coefficients.csv",
+      "intended_release_path": "source_data/v211_feature_coefficients_O_20panel/source_scheme_averaged_coefficients.csv",
+      "bytes": 715563,
+      "sha256": "181ddabb4a7979bf959b6b49ad68b770cdbaeb5090008479658fc6ccabb7662d",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_feature_coefficients_S_20panel",
+      "workspace_relative_path": "figures/v211_feature_coefficients_S_20panel/source_scheme_averaged_coefficients.csv",
+      "intended_release_path": "source_data/v211_feature_coefficients_S_20panel/source_scheme_averaged_coefficients.csv",
+      "bytes": 719305,
+      "sha256": "7000e7d4f7e137ba050c3d0c694f20f46ee44c4a71d948c83b76e80975d5108b",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_feature_coefficients_SminusO_20panel",
+      "workspace_relative_path": "figures/v211_feature_coefficients_SminusO_20panel/source_scheme_averaged_coefficients.csv",
+      "intended_release_path": "source_data/v211_feature_coefficients_SminusO_20panel/source_scheme_averaged_coefficients.csv",
+      "bytes": 757397,
+      "sha256": "8d0c309d74206f6c597bf3a44103435f42c63abb1ac0dbb900a14a90c64417ca",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_2023_scheme_averaged_spatial_response.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_2023_scheme_averaged_spatial_response.csv",
+      "bytes": 426603,
+      "sha256": "1d134e692e7677774afa5fffecc89378f5bb49c5135276710098b4399a864788",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_annual_median_response.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_annual_median_response.csv",
+      "bytes": 1109,
+      "sha256": "064a7f8f1dff51c45c6ebd6d9b7037dfbef8e790cf6a55e813b12a01c230a9c2",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_annual_response_intervals.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_annual_response_intervals.csv",
+      "bytes": 6722,
+      "sha256": "13d5d71e35583e5b2bb35fb29fd406d13c3beefd3e913e2382f2f8c3c595505a",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_directional_coverage.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_directional_coverage.csv",
+      "bytes": 361,
+      "sha256": "8e42f3c06bc3c7f20e5eaf3cba4b1ea4c77c399f39cab8226eff95b7acb5d6be",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_fold_response_intervals.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_fold_response_intervals.csv",
+      "bytes": 691,
+      "sha256": "596ad0a37583060dd4283a5a75330c0e956c7c79b4ac0c4e5fbb7e35ec513e51",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_poverty_stratified_response.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_poverty_stratified_response.csv",
+      "bytes": 679,
+      "sha256": "6fa002aeec7183db79ff72b619bb1fd53138f1d3a199e31df540ad1bcbe4edfb",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_strategy_response_correlations.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_strategy_response_correlations.csv",
+      "bytes": 1271,
+      "sha256": "884ae26130338a087664651409fb95cc7545c571e1d38b00625f388464358bfd",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_tract_year_distributions.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_tract_year_distributions.csv",
+      "bytes": 1001,
+      "sha256": "175e713d75d471dbc934821bb0357090ddaf736ad6ec1bb7742210c910bf521c",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    },
+    {
+      "figure_folder": "v211_planning_strategy_20panel",
+      "workspace_relative_path": "figures/v211_planning_strategy_20panel/source_tract_year_response_intervals.csv",
+      "intended_release_path": "source_data/v211_planning_strategy_20panel/source_tract_year_response_intervals.csv",
+      "bytes": 987,
+      "sha256": "35a4cc2a0c71b416feacf0c138a85700a7d8b7affe318455727b9f7a6e42b2a8",
+      "included_in_release": false,
+      "redistribution_status": "pending_disclosure_and_licence_review"
+    }
+  ],
+  "figures_registered": 18,
+  "tables_registered": 46,
+  "source_tables_external": true,
+  "restricted_media_embedded": false,
+  "notice": "This metadata registry does not grant redistribution rights and does not include table content."
+}

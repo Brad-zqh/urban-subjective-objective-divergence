@@ -1,0 +1,22 @@
+project:
+  analysis_version: V211
+  proxy_analysis: true
+  formal: false
+
+paths:
+  # Supply reviewed local paths in an ignored override. Missing restricted
+  # inputs must fail closed; never commit credentials or raw media.
+  derived_source_tables: null
+  chicago_geometry: null
+  font_directory: assets/fonts/nimbus-sans
+  figure_output: outputs/figures
+
+runtime:
+  python: "3.12.10"
+  deterministic_fold_seeds: true
+  transit_relation_available: false
+
+release:
+  include_raw_platform_media: false
+  include_model_checkpoints: false
+  source_tables_external: true

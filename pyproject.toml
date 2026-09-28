@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mm-gtgnnwr"
+version = "0.1.0"
+description = "MM-GTGNNWR model and figure code for urban environmental subjective-objective divergence and mental health."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Geo Mental Health research team"}]
+license = "MIT"
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+figures = [
+  "geopandas>=1.0,<2",
+  "matplotlib>=3.8,<4",
+  "numpy>=1.26,<3",
+  "pandas>=2.1,<4",
+  "pillow>=10,<13",
+  "pyarrow>=15,<26",
+  "scipy>=1.11,<2",
+  "shapely>=2,<3",
+]
+lint = ["ruff>=0.5,<1"]
+model = ["torch==2.12.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --ignore=tests/test_download_osm_annual_chicago.py"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["mm_gtgnnwr"]

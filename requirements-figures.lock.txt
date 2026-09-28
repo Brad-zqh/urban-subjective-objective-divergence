@@ -1,0 +1,11 @@
+# Exact direct dependencies used for the 2026-09-10 figure-delivery audit.
+# Transitive dependencies are resolved by pip; archive a fully resolved lock
+# with the release tag after clean-environment verification.
+geopandas==1.1.4
+matplotlib==3.11.0
+numpy==2.4.6
+pandas==3.0.3
+pillow==12.3.0
+pyarrow==25.0.0
+scipy==1.18.0
+shapely==2.1.2

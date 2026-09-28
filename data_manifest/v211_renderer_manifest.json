@@ -1,0 +1,188 @@
+{
+  "manifest_schema": "v1",
+  "generated_at_utc": "2026-09-10T16:35:03.809162+00:00",
+  "analysis_version": "V211",
+  "proxy_analysis": true,
+  "formal": false,
+  "vendor_snapshot": true,
+  "source_tables_external": true,
+  "restricted_media_embedded": false,
+  "model_contract": {
+    "path": "src/mm_gtgnnwr/model_contract.py",
+    "bytes": 10104,
+    "sha256": "30772daf98f31a65544858673900ca472c6ffefb95b96158c5e315387771a67c",
+    "workspace_source": "workstreams/RQ2_model/engineering_v207/v207_model_contract.py",
+    "workspace_source_sha256": "30772daf98f31a65544858673900ca472c6ffefb95b96158c5e315387771a67c",
+    "source_name_retained_for_provenance": "V207TransparentMMGTGNNWR",
+    "used_by_current_v211_r3": true
+  },
+  "font_assets": {
+    "upstream": "https://github.com/ArtifexSoftware/urw-base35-fonts",
+    "upstream_commit": "3c0ba3b5687632dfc66526544a4e811fe0ec0cd9",
+    "licence": "AGPL-3.0 with upstream font/document embedding exception",
+    "files": [
+      {
+        "path": "assets/fonts/nimbus-sans/NimbusSans-Bold.otf",
+        "bytes": 83264,
+        "sha256": "7f33328e6b4d4cd21b45fa625791928c9407dc702db6780e56b09ca9a3ecaa67"
+      },
+      {
+        "path": "assets/fonts/nimbus-sans/NimbusSans-BoldItalic.otf",
+        "bytes": 95396,
+        "sha256": "3f47fb34fcb7de09f8cbc9f305191340ddebf7a068419f4bb5f49287dea59b87"
+      },
+      {
+        "path": "assets/fonts/nimbus-sans/NimbusSans-Italic.otf",
+        "bytes": 95244,
+        "sha256": "7b0bef5686aa58c0fd0f0d01beeae56664208490e30ca6a25431281c9a0c6402"
+      },
+      {
+        "path": "assets/fonts/nimbus-sans/NimbusSans-Regular.otf",
+        "bytes": 82264,
+        "sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08"
+      },
+      {
+        "path": "assets/fonts/nimbus-sans/LICENSE",
+        "bytes": 449,
+        "sha256": "b0b192fda6c754b02dd4346f6638dac9c2f84a249d4ed424510788daad6e147b"
+      },
+      {
+        "path": "assets/fonts/nimbus-sans/COPYING",
+        "bytes": 35181,
+        "sha256": "282751b8c98ee9e445346eb57a992c9ecbe25ed8dd554df046777313e19b10f9"
+      },
+      {
+        "path": "assets/fonts/nimbus-sans/SOURCE.md",
+        "bytes": 1149,
+        "sha256": "aae1f1cd455a412a815cc6ae62c8d15a0d1eafec6cc5d676af9ea7daba39e48d"
+      }
+    ]
+  },
+  "external_source_registry": {
+    "path": "data_manifest/v211_external_figure_source_tables.json",
+    "bytes": 27925,
+    "sha256": "0d780648b721dc19344de1af54b7fdb83ef91326fcbf1d41752a0cc138735f66",
+    "figures_registered": 18,
+    "tables_registered": 46,
+    "table_content_included": false
+  },
+  "renderers": [
+    {
+      "path": "figures/build_v211_signed_delta_sensitivity_12panel.py",
+      "bytes": 12079,
+      "sha256": "26b67b8393b322503031726ed4988da9c29a6e5e510ded4c5757339c6db1d5c7",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_explainability_flagship_20panel_v2.py",
+      "bytes": 11765,
+      "sha256": "c1ca06a5380f41b1638b522f45885608421ff498444154f4f6dedb5fedd56306",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_explainability_composite_20panel.py",
+      "bytes": 8414,
+      "sha256": "35ee05ae7becadce59753c8de150d3d6fc43788e49ff5c3508dffce525c1931e",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_full_coefficient_atlas_20panel.py",
+      "bytes": 4198,
+      "sha256": "84c7b0b70404f9bcb4cb99b7bbbb32189f3251a2e4640be151267ee428c5ee5d",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_local_coefficient_map_20panel.py",
+      "bytes": 5439,
+      "sha256": "324269b668f31df7029d36c8be2b9bd05c2ca0d55b0175d8d8111b44620090b6",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_spatiotemporal_20panel.py",
+      "bytes": 6547,
+      "sha256": "2ba24b8fbe5dd6d9b8dd4b253a29abb3ee9d9b208cb264eb9b46c23332bac35c",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_scenario_inequality_20panel.py",
+      "bytes": 6191,
+      "sha256": "249a6b701c38e404674772ddb299a13984cf1a053415969401b6c609a81b13f5",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_scenario_flagship_15panel.py",
+      "bytes": 9089,
+      "sha256": "664b73fe0c503a9207d869a2a31e44f6385efd317de588286a8203b2e1a9dcc1",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_inequality_flagship_15panel.py",
+      "bytes": 6787,
+      "sha256": "4d05bff058132ddc48f608b643a12a9ea9719c5672e03be64cbab2dd407664b0",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_modality_ablation_20panel.py",
+      "bytes": 5824,
+      "sha256": "f88345acdb933c41a3286754df844ad81b51f733300a99380524493ed7d29b4d",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_training_ablation_20panel.py",
+      "bytes": 9584,
+      "sha256": "2b447def43ce878b37be83c9e6db55257032f1441ff0d428cc49266e98b0166f",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_graph_perturbation_nature_16panel.py",
+      "bytes": 6979,
+      "sha256": "f07ca7a8d891bdab264ec34caf98e384841e1bd8ac0dbc2f5959c880d94c3c3c",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_graph_perturbation_spatiotemporal_20panel.py",
+      "bytes": 17752,
+      "sha256": "e8318dfde01b9fd8bd06a186302b88dde1eeca2e85ec35af6b589806a671d0b2",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_model_perturbation_moderation_20panel.py",
+      "bytes": 14070,
+      "sha256": "1417434644bc829fb7ee8f14f15313177ddc924197475dfb4507076e968c9505",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_feature_coefficient_channel_atlases.py",
+      "bytes": 10823,
+      "sha256": "1dd4605807a7d5d613054f456ba61832ef09c640e5da0f94ba3e20f30050fb17",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/build_v211_planning_strategy_20panel.py",
+      "bytes": 17778,
+      "sha256": "775f79cec02556e2ce4cfe093e16a8b250a4041ba323a5c7c753d69f5055dc7d",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "figures/nature_viz_common.py",
+      "bytes": 6280,
+      "sha256": "11d14d28987bc602fde45ab180221d1a0aa48cd076ab330620363602e763f24a",
+      "restricted_data_embedded": false
+    },
+    {
+      "path": "reproducibility/v211_nature_figures_20260906/run_flagship_figures.py",
+      "bytes": 3943,
+      "sha256": "0a9868258c72f6b5243ea0cf302230de029cbbd666030a3cedfc16d8dee93142",
+      "restricted_data_embedded": false
+    }
+  ],
+  "notes": [
+    "This manifest records the current-only renderer code vendored into the release candidate.",
+    "The model contract is an exact snapshot of the architecture class used by current V211 R3.",
+    "The complete restricted-data training and post-processing closure is not yet vendored.",
+    "Nimbus Sans files are unmodified third-party assets with separate upstream licence files.",
+    "The external Source Data registry records 46 table hashes but includes no table content.",
+    "Figure renderers must not be interpreted as full restricted-data retraining.",
+    "Derived figure source tables remain external until licence and disclosure review is complete."
+  ]
+}

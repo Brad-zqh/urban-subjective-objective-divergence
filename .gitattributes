@@ -1,0 +1,21 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+data_manifest/v211_external_figure_source_tables.json -text whitespace=cr-at-eol
+*.csv text eol=lf
+*.png binary
+*.jpg binary
+*.pdf binary
+*.tiff binary
+*.otf binary
+
+# Preserve byte-identical third-party and audited snapshot files while keeping
+# repository-wide whitespace checks enabled for maintained source.
+assets/fonts/nimbus-sans/LICENSE -text whitespace=cr-at-eol,-blank-at-eof
+assets/fonts/nimbus-sans/COPYING -text whitespace=cr-at-eol
+figures/build_v211_explainability_composite_20panel.py whitespace=-blank-at-eof
+figure_snapshot/** -text whitespace=cr-at-eol,-blank-at-eof
