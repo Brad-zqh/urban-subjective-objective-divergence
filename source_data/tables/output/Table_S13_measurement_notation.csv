@@ -1,0 +1,11 @@
+﻿Quantity,Notation,Implemented operation,Role / interpretation
+Within-year standardisation,z_t(x) = (x − μ_t) / σ_t,mean and population SD (ddof = 0) computed within health-reference year; zero-variance groups remain unavailable,places heterogeneous raw anchors on a common annual scale
+Objective orientation,x*_{jkt} = a_{jk} x_{jkt},"a = −1 for supportive green/blue space, access and social-vitality anchors; a = +1 for adverse-oriented anchors",larger values consistently denote a more adverse objective condition
+Objective composite,O_kt = mean_j[z_t(x*_{jkt})],arithmetic mean across available registered anchors in dimension k,ten primary objective dimensions
+Semantic contrast,"r = sim(e, p_adverse) − sim(e, p_favourable)",frozen SigLIP2 joint embedding and fixed prompt pair for each dimension,larger raw contrast denotes more adverse platform-linked content
+Text proxy,"S_text,kt = mean_source[z_t(r)]",equal mean across available Google text and Flickr author/comment-text sources; review count does not determine source weight,outcome-blind platform-text component
+Observed multimodal proxy,"S_obs,kt = mean(S_text,kt, S_GSV,kt)",GSV contrast is separately within-year z-scored; equal mean of available text and GSV modalities,"observed S support for 8,365 of 8,440 rows"
+Flagged fallback,"S_kt = augment(S_obs,kt)","for 75 no-source rows only: nearest year in the same tract (same vintage preferred; past wins ties), then weighted same-year Queen-neighbour mean",provenance retained; never relabelled as observed
+Signed discrepancy,D_kt = S_kt − O_kt,exact row-wise subtraction after aligned adverse orientation,10 primary fields; positive = platform expression more adverse than objective context
+Absolute discrepancy,Q_kt = |D_kt|,absolute value of the signed contrast,10 robustness fields; excluded from the 43-feature primary representation
+Primary numeric representation,10 O + 10 S + 10 D + 13 SES,43 fields registered in the current compact feature dictionary; model standardisation learned within training roles,current compact proxy; descriptive inference

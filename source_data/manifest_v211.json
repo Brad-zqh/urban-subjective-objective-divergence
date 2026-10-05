@@ -1,0 +1,1387 @@
+{
+  "schema_version": 1,
+  "empirical_analysis_version": "V211 R3 compact proxy",
+  "synthetic_validation_version": "V154 sealed simulation (Fig. 6 only)",
+  "proxy_analysis": true,
+  "formal": false,
+  "scope": "Figure 2–13 plotted-data exports, added Fig. 2/6 inputs, and Table 1/S1–S13 reproduction inputs/outputs",
+  "counts": {
+    "figure": 54,
+    "table_input": 10,
+    "table_output": 14
+  },
+  "files": [
+    {
+      "path": "fig02/source_spatial_model_predictions.csv",
+      "role": "figure",
+      "bytes": 1079360,
+      "sha256": "9479865a034b68f8efe7cb43c429998ef98915feb4bb4c1446cd7ffe848b4ef2",
+      "figure": 2,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "GEOID",
+        "health_year",
+        "outcome_mhlth",
+        "prediction"
+      ],
+      "rows": 21045
+    },
+    {
+      "path": "fig02/source_temporal_spatial_summaries.csv",
+      "role": "figure",
+      "bytes": 2296,
+      "sha256": "de13caaa0be33d6735833822874c246573a10535d8c8665587a63eb75d6e2cba",
+      "figure": 2,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "health_year",
+        "median",
+        "q25",
+        "q75",
+        "iqr"
+      ],
+      "rows": 25
+    },
+    {
+      "path": "fig03/source_annual_descriptive_metrics.csv",
+      "role": "figure",
+      "bytes": 7790,
+      "sha256": "c3b37626cede4fcb49695112211d8ddefec521c2228e7c19d94a475e8885e12e",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "health_year",
+        "r2",
+        "rmse",
+        "mae",
+        "bias",
+        "residual_iqr"
+      ],
+      "rows": 70
+    },
+    {
+      "path": "fig03/source_data_sha256.json",
+      "role": "figure",
+      "bytes": 1529,
+      "sha256": "60344436274b4123619dce53adb03207a4dc824f0d0a5f914873307511b23210",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy"
+    },
+    {
+      "path": "fig03/source_descriptive_profile_metrics.csv",
+      "role": "figure",
+      "bytes": 777,
+      "sha256": "abdb5f3b0e30087de9821adda65bc9b896fa56aed0eb036d35bdd75cc7d2ea3f",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "r2",
+        "rmse",
+        "mae",
+        "bias",
+        "residual_iqr"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig03/source_locked_2023_metrics.csv",
+      "role": "figure",
+      "bytes": 775,
+      "sha256": "8e6050ade6974c0be100d6c50bea6e1b8e4d61d0efe43d7e9ece454d5f69411d",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "r2",
+        "rmse",
+        "mae",
+        "bias",
+        "residual_iqr"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig03/source_mm_gtgnnwr_spatial_outer_fold_profiles.parquet",
+      "role": "figure",
+      "bytes": 561027,
+      "sha256": "1b8678099fb2770ac9ac86588edd89d9578afd693931c2b87a14c31cdd4f5893",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy"
+    },
+    {
+      "path": "fig03/source_registered_prediction_profiles.parquet",
+      "role": "figure",
+      "bytes": 363661,
+      "sha256": "505a2a3c23e76c462c725b04de355f6cbadaa0aa548298e74cabbebf79ef3d02",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy"
+    },
+    {
+      "path": "fig03/source_residual_summary.csv",
+      "role": "figure",
+      "bytes": 380,
+      "sha256": "33c7e23654ebf19f5fe17e515797817a0c746c76efac7ed9b00400b07ee467e3",
+      "figure": 3,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "median_residual",
+        "residual_iqr"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig04/source_annual_metrics.csv",
+      "role": "figure",
+      "bytes": 2054,
+      "sha256": "9fa36c4c60bb14b2ebfe9a5680ddffa513630f5e9759526a1be0633a02057bbe",
+      "figure": 4,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "health_reference_year",
+        "outer_evaluations",
+        "full_r2",
+        "full_rmse",
+        "full_mae",
+        "os_only_r2",
+        "os_only_rmse",
+        "os_only_mae",
+        "delta_r2_full_minus_os",
+        "delta_rmse_full_minus_os",
+        "delta_mae_full_minus_os"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "fig04/source_fold_direction_coverage.csv",
+      "role": "figure",
+      "bytes": 481,
+      "sha256": "9d89286ffb998389384210c29add7af0fed90f5289810808a070dde2d21395ff",
+      "figure": 4,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "metric",
+        "scheme",
+        "improved_percent"
+      ],
+      "rows": 15
+    },
+    {
+      "path": "fig04/source_fold_metrics.csv",
+      "role": "figure",
+      "bytes": 8492,
+      "sha256": "1bff7b766cd20f4e9d0c7fb37dc2248d3e96273d10211ab6eab8be070eb99976",
+      "figure": 4,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "fold_id",
+        "scheme",
+        "boundary_vintage",
+        "block",
+        "outer_test_rows",
+        "full_r2",
+        "os_only_r2",
+        "delta_r2_full_minus_os",
+        "full_rmse",
+        "os_only_rmse",
+        "delta_rmse_full_minus_os",
+        "full_mae",
+        "os_only_mae",
+        "delta_mae_full_minus_os",
+        "full_better_r2",
+        "full_better_rmse",
+        "full_better_mae"
+      ],
+      "rows": 32
+    },
+    {
+      "path": "fig04/source_outer_test_predictions.csv",
+      "role": "figure",
+      "bytes": 5467163,
+      "sha256": "d11c6ac3c80f7d5b3eba8ed930de792989751e838584092899e6daa6c2affb67",
+      "figure": 4,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "numeric_row",
+        "tract_geoid_native",
+        "health_reference_year",
+        "boundary_vintage",
+        "fold_id",
+        "scheme",
+        "block",
+        "observed",
+        "prediction_full",
+        "prediction_os_only",
+        "residual_full",
+        "residual_os_only"
+      ],
+      "rows": 33760
+    },
+    {
+      "path": "fig04/source_panel_statistics.csv",
+      "role": "figure",
+      "bytes": 695,
+      "sha256": "e95f00f8b298bc7d0146fec15001d4403de55e3c9e816836c4f2ff5f99ae96c4",
+      "figure": 4,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "rows",
+        "full_r2",
+        "full_rmse",
+        "full_mae",
+        "os_only_r2",
+        "os_only_rmse",
+        "os_only_mae",
+        "delta_r2_full_minus_os",
+        "delta_rmse_full_minus_os",
+        "delta_mae_full_minus_os",
+        "delta_r2_median",
+        "delta_r2_iqr",
+        "delta_rmse_median",
+        "delta_rmse_iqr",
+        "delta_mae_median",
+        "delta_mae_iqr",
+        "full_better_r2_folds",
+        "full_better_rmse_folds",
+        "full_better_mae_folds"
+      ],
+      "rows": 1
+    },
+    {
+      "path": "fig04/source_partition_metrics.csv",
+      "role": "figure",
+      "bytes": 1802,
+      "sha256": "2690db1d458d3e87a328b04c704b0c10b39e840ffa9da96812a4c50a40b0d039",
+      "figure": 4,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "rows",
+        "full_r2",
+        "full_rmse",
+        "full_mae",
+        "os_only_r2",
+        "os_only_rmse",
+        "os_only_mae",
+        "scheme",
+        "boundary_vintage",
+        "delta_r2_full_minus_os",
+        "delta_rmse_full_minus_os",
+        "delta_mae_full_minus_os"
+      ],
+      "rows": 8
+    },
+    {
+      "path": "fig05/source_all_model_fold_metrics.csv",
+      "role": "figure",
+      "bytes": 18201,
+      "sha256": "b515728548333df3b53443203de5fb719e98f8e176a9ac787a20fa4c35f82bf5",
+      "figure": 5,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "model",
+        "partition_scheme",
+        "spatial_block",
+        "n_predictions",
+        "mae",
+        "rmse",
+        "r2",
+        "ridge_mae",
+        "delta_mae_vs_ridge",
+        "fold_label"
+      ],
+      "rows": 144
+    },
+    {
+      "path": "fig05/source_block_ablation.csv",
+      "role": "figure",
+      "bytes": 5290,
+      "sha256": "8f3993f2c4ff12962725e3bc58fe7aeb4af062a966f8095092acd44de897378a",
+      "figure": 5,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "family",
+        "partition_scheme",
+        "outer_test_block",
+        "n_clusters",
+        "n_rows",
+        "point_mae_gain",
+        "point_rmse_gain",
+        "mae_ci_low",
+        "mae_ci_high",
+        "rmse_ci_low",
+        "rmse_ci_high"
+      ],
+      "rows": 32
+    },
+    {
+      "path": "fig05/source_data_sha256.json",
+      "role": "figure",
+      "bytes": 988,
+      "sha256": "6683ebb16117ae3f8fadd14383b1d2154821580fa45d0a1fcd2b633a01d8868d",
+      "figure": 5,
+      "evidence_version": "V211 R3 proxy"
+    },
+    {
+      "path": "fig05/source_partition_ablation.csv",
+      "role": "figure",
+      "bytes": 1674,
+      "sha256": "6401201506d753fb1ecea23001a17b85fccbd0a6975136cd941526556b7d7284",
+      "figure": 5,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "family",
+        "partition_scheme",
+        "n_clusters",
+        "n_rows",
+        "point_mae_gain",
+        "point_rmse_gain",
+        "mae_ci_low",
+        "mae_ci_high",
+        "rmse_ci_low",
+        "rmse_ci_high",
+        "mae_holm_p",
+        "rmse_holm_p",
+        "point_joint_improvement",
+        "interval_joint_improvement",
+        "holm_joint_improvement",
+        "registered_partition_gate"
+      ],
+      "rows": 8
+    },
+    {
+      "path": "fig05/source_within_fold_r2_profiles.csv",
+      "role": "figure",
+      "bytes": 3086,
+      "sha256": "7cf5eb69a5e6d76220834ffec6201b97e5d74b4b8de3427de3a1a8a377560560",
+      "figure": 5,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "fold_label",
+        "ridge_anchor",
+        "gtwr_kernel",
+        "gnnwr_spatial",
+        "cleanroom_gtnnwr",
+        "spline_gam_ridge",
+        "mobility_only_inductive",
+        "available_four_inductive",
+        "multiscale_graph_fusion_mobility",
+        "multiscale_graph_fusion_four"
+      ],
+      "rows": 16
+    },
+    {
+      "path": "fig06/source_model_metric_intervals.csv",
+      "role": "figure",
+      "bytes": 859,
+      "sha256": "09939c46c59c37d509fa5351791b79677be942c796a3303dcc16afa9a96454ce",
+      "figure": 6,
+      "evidence_version": "V154 sealed simulation",
+      "columns": [
+        "model",
+        "metric",
+        "median",
+        "q025",
+        "q975",
+        "n_fold_units"
+      ],
+      "rows": 12
+    },
+    {
+      "path": "fig06/v154_combined_model_metrics.csv",
+      "role": "figure",
+      "bytes": 17526,
+      "sha256": "96b0a3d6ab180ca4477259d23a927c67b98ebba279154135fb374072696e8851",
+      "figure": 6,
+      "evidence_version": "V154 sealed simulation",
+      "columns": [
+        "dataset_seed",
+        "fold",
+        "model",
+        "n_train",
+        "n_validation",
+        "n_test",
+        "runtime_seconds",
+        "neighbors",
+        "tau",
+        "r2",
+        "rmse",
+        "mae",
+        "beta0_rmse",
+        "beta1_rmse",
+        "beta2_rmse",
+        "beta_rmse_mean",
+        "surface_type",
+        "n_refit",
+        "ridge_alpha",
+        "spline_alpha",
+        "gtwr_neighbors",
+        "gtwr_tau",
+        "gtwr_weight",
+        "graph_weight",
+        "graph_selected_epoch",
+        "refit_reference_count"
+      ],
+      "rows": 105
+    },
+    {
+      "path": "fig06/v154_combined_recovery_surfaces.csv",
+      "role": "figure",
+      "bytes": 2956252,
+      "sha256": "eb5b2e398bf024e6f028955b3a31df9d3df7021021e4862c99e251243891ff21",
+      "figure": 6,
+      "evidence_version": "V154 sealed simulation",
+      "columns": [
+        "u",
+        "v",
+        "t",
+        "beta0",
+        "beta1",
+        "beta2",
+        "model",
+        "beta0_hat",
+        "beta1_hat",
+        "beta2_hat",
+        "is_test",
+        "surface_type",
+        "prediction"
+      ],
+      "rows": 28672
+    },
+    {
+      "path": "fig07/source_pooled_feature_summary.csv",
+      "role": "figure",
+      "bytes": 6022,
+      "sha256": "18307c15eef1190b2083b997e18965503931e1b9ba529107a85c1c6c3f0b9b6c",
+      "figure": 7,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "feature",
+        "label",
+        "group",
+        "median",
+        "q25",
+        "q75",
+        "median_absolute",
+        "scheme_sign_agreement"
+      ],
+      "rows": 43
+    },
+    {
+      "path": "fig07/source_registered_scheme_feature_medians_and_deviations.csv",
+      "role": "figure",
+      "bytes": 40554,
+      "sha256": "43f3d4e5124664a07b619b0f5a4cc4cd15c4b5c6856365f03aa58fcee608fecd",
+      "figure": 7,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scheme",
+        "feature",
+        "median_local_coefficient",
+        "label",
+        "group",
+        "scheme_sign_agreement",
+        "pooled_field_median",
+        "deviation_from_pooled_field_median"
+      ],
+      "rows": 344
+    },
+    {
+      "path": "fig07/source_variable_name_key.csv",
+      "role": "figure",
+      "bytes": 2269,
+      "sha256": "7c5a5ab20031496c61b05dd26a86bfc2442ad2c3ed4559a09cb4a4717ade80a3",
+      "figure": 7,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "feature",
+        "display_variable_name",
+        "group"
+      ],
+      "rows": 43
+    },
+    {
+      "path": "fig08/source_annual_median_coefficients.csv",
+      "role": "figure",
+      "bytes": 2715,
+      "sha256": "d9c6c358ca8a18b5137b81c035397609c3039390365c697440ef416c2d659b4f",
+      "figure": 8,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "health_reference_year",
+        "median",
+        "q25",
+        "q75",
+        "n",
+        "dimension",
+        "dimension_name"
+      ],
+      "rows": 40
+    },
+    {
+      "path": "fig08/source_multiyear_maps.csv",
+      "role": "figure",
+      "bytes": 556367,
+      "sha256": "8d0974efc89763c26a94f9750d7a29cff3e0aaaaab56dbca6c436b61a957fe0e",
+      "figure": 8,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "GEOID",
+        "coefficient",
+        "health_reference_year",
+        "dimension",
+        "dimension_name",
+        "direct_land_tracts"
+      ],
+      "rows": 10300
+    },
+    {
+      "path": "fig09/source_cubic_response_curves.csv",
+      "role": "figure",
+      "bytes": 692209,
+      "sha256": "17ad4d08a3f0e9a4f149a9eb82ba666395aff0a4a4fd7cceda778a8faeb12498",
+      "figure": 9,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "x",
+        "mean",
+        "lo90",
+        "hi90",
+        "lo50",
+        "hi50",
+        "scenario",
+        "moderator",
+        "panel_family"
+      ],
+      "rows": 3600
+    },
+    {
+      "path": "fig09/source_data_sha256.json",
+      "role": "figure",
+      "bytes": 734,
+      "sha256": "2c8c26d0b771b5624fdb79651fee84f28ca8e5798e826b392f9a4c4c53862dbd",
+      "figure": 9,
+      "evidence_version": "V211 R3 proxy"
+    },
+    {
+      "path": "fig09/source_p10_p90_contrasts.csv",
+      "role": "figure",
+      "bytes": 4083,
+      "sha256": "9ed254121e3d02bad26bc9461a8f76fa0962c53c061fee7cacafa93071ab62d2",
+      "figure": 9,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "n_tract_years",
+        "n_tracts",
+        "p10",
+        "p90",
+        "response_p10",
+        "response_p90",
+        "p90_minus_p10",
+        "model_r2",
+        "cluster_robust",
+        "scenario",
+        "moderator",
+        "panel_family"
+      ],
+      "rows": 20
+    },
+    {
+      "path": "fig10/source_all_scheme_ses_gaps.csv",
+      "role": "figure",
+      "bytes": 23974,
+      "sha256": "9c312b6a3642de66910ec1c5777f00adc746383fde77cae3da61120f9f1bbe29",
+      "figure": 10,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scheme",
+        "ses_variable",
+        "q1",
+        "q3",
+        "n_low_q1",
+        "n_high_q3",
+        "mean_prediction_low_q1",
+        "mean_prediction_high_q3",
+        "prediction_difference_high_minus_low",
+        "absolute_prediction_difference",
+        "pooled_prediction_sd",
+        "standardized_prediction_gap",
+        "health_outcome_read",
+        "proxy_analysis",
+        "formal"
+      ],
+      "rows": 104
+    },
+    {
+      "path": "fig10/source_cross_scheme_summary.csv",
+      "role": "figure",
+      "bytes": 1111,
+      "sha256": "ecb1429f03adc6ef26340852d5d7e43521d273d1c610337368ef64f77c03a05e",
+      "figure": 10,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "ses_variable",
+        "median_across_schemes",
+        "minimum",
+        "maximum"
+      ],
+      "rows": 13
+    },
+    {
+      "path": "fig11/source_2023_scheme_averaged_spatial_response.csv",
+      "role": "figure",
+      "bytes": 426603,
+      "sha256": "1d134e692e7677774afa5fffecc89378f5bb49c5135276710098b4399a864788",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "tract_geoid_native",
+        "health_reference_year",
+        "prediction_difference",
+        "poverty",
+        "scheme_count"
+      ],
+      "rows": 6090
+    },
+    {
+      "path": "fig11/source_annual_response_intervals.csv",
+      "role": "figure",
+      "bytes": 6732,
+      "sha256": "1b5da338541b9e05e08cd2f950c50d1e8c5e23e0c175a911f024c278c1abf949",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "health_reference_year",
+        "q25",
+        "median",
+        "q75",
+        "scenario"
+      ],
+      "rows": 70
+    },
+    {
+      "path": "fig11/source_directional_coverage.csv",
+      "role": "figure",
+      "bytes": 361,
+      "sha256": "8e42f3c06bc3c7f20e5eaf3cba4b1ea4c77c399f39cab8226eff95b7acb5d6be",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "fraction_improved"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig11/source_package_additivity_residual.csv",
+      "role": "figure",
+      "bytes": 479619,
+      "sha256": "558bbd439c9cc81ad9835afdb0e44fc15b699ea082d67bf3b29eb083a79f3d09",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "sum_component_change",
+        "integrated_change",
+        "non_additivity_residual"
+      ],
+      "rows": 8440
+    },
+    {
+      "path": "fig11/source_poverty_stratified_response.csv",
+      "role": "figure",
+      "bytes": 679,
+      "sha256": "6fa002aeec7183db79ff72b619bb1fd53138f1d3a199e31df540ad1bcbe4edfb",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "low_poverty_q1",
+        "high_poverty_q4",
+        "high_minus_low"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig11/source_strategy_response_correlations.csv",
+      "role": "figure",
+      "bytes": 1271,
+      "sha256": "884ae26130338a087664651409fb95cc7545c571e1d38b00625f388464358bfd",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "D1_green_water_plus_1sd",
+        "D5_clean_maintenance_minus_1sd",
+        "D7_heat_mitigation_minus_1sd",
+        "D8_air_pollution_minus_1sd",
+        "D9_noise_mitigation_minus_1sd",
+        "D10_traffic_pressure_minus_1sd",
+        "joint_six_dimensions"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig11/source_tract_year_response_intervals.csv",
+      "role": "figure",
+      "bytes": 987,
+      "sha256": "a2bad763cdfa6c2e45fbaa71579eec68aa86ee3db23a503d4c900cf068439e51",
+      "figure": 11,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "n",
+        "q05",
+        "q25",
+        "median",
+        "q75",
+        "q95"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig12/source_scenario_directional_coverage.csv",
+      "role": "figure",
+      "bytes": 705,
+      "sha256": "3493979e8bae3268e58c2a96427b2d6a584ba316af018de31bbb51d327b968ec",
+      "figure": 12,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "n",
+        "median",
+        "negative_share_pct",
+        "positive_share_pct"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig12/source_scenario_magnitude_heterogeneity.csv",
+      "role": "figure",
+      "bytes": 1130,
+      "sha256": "c7288883e68b43e673e32d0e6670003a398b874250629d552e228e7d3452f6e0",
+      "figure": 12,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "n",
+        "q05",
+        "q25",
+        "median",
+        "q75",
+        "q95",
+        "iqr"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig12/source_scenario_nested_intervals.csv",
+      "role": "figure",
+      "bytes": 987,
+      "sha256": "ebacdd93f6bb260ad1be05aa75f89fea1d026ab44e3e1c616e9245b85caa8514",
+      "figure": 12,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scenario",
+        "n",
+        "q05",
+        "q25",
+        "median",
+        "q75",
+        "q95"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "fig12/source_scenario_predictions.csv",
+      "role": "figure",
+      "bytes": 37445037,
+      "sha256": "e7f5df0025840a2a19943e380f4bcb4f0384b0b3aa1af15402669609787db060",
+      "figure": 12,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "fold_id",
+        "numeric_row",
+        "scenario",
+        "baseline_prediction",
+        "scenario_prediction",
+        "prediction_difference",
+        "absolute_prediction_difference",
+        "health_outcome_read",
+        "proxy_analysis",
+        "formal",
+        "delta_x_o_d1_composite_z",
+        "delta_x_o_d5_composite_z",
+        "delta_x_o_d7_composite_z",
+        "delta_x_o_d8_composite_z",
+        "delta_x_o_d9_composite_z",
+        "delta_x_o_d10_composite_z"
+      ],
+      "rows": 236320
+    },
+    {
+      "path": "fig12/source_ses_directional_agreement.csv",
+      "role": "figure",
+      "bytes": 841,
+      "sha256": "0e1f147b601ed72ac4c5c272f71f42c0fee779a98585444d9c965b4fc1869eeb",
+      "figure": 12,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "ses_variable",
+        "negative_share_pct",
+        "positive_share_pct",
+        "exact_zero_share_pct",
+        "median_standardized_gap"
+      ],
+      "rows": 13
+    },
+    {
+      "path": "fig12/source_ses_prediction_disparity.csv",
+      "role": "figure",
+      "bytes": 23974,
+      "sha256": "9c312b6a3642de66910ec1c5777f00adc746383fde77cae3da61120f9f1bbe29",
+      "figure": 12,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "scheme",
+        "ses_variable",
+        "q1",
+        "q3",
+        "n_low_q1",
+        "n_high_q3",
+        "mean_prediction_low_q1",
+        "mean_prediction_high_q3",
+        "prediction_difference_high_minus_low",
+        "absolute_prediction_difference",
+        "pooled_prediction_sd",
+        "standardized_prediction_gap",
+        "health_outcome_read",
+        "proxy_analysis",
+        "formal"
+      ],
+      "rows": 104
+    },
+    {
+      "path": "fig13/source_curvature_sign_audit.csv",
+      "role": "figure",
+      "bytes": 36112,
+      "sha256": "095df6c5c9a942d5ae0518f022544e22138c9b7e83dc770da834d9b154c9bb88",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "feature",
+        "ses_variable",
+        "ses_stratum",
+        "n_folds",
+        "positive_fraction",
+        "negative_fraction",
+        "near_zero_fraction",
+        "same_sign_fraction",
+        "strong_same_sign_ge_0_75",
+        "median_quadratic_curvature",
+        "median_abs_quadratic_curvature",
+        "mean_quadratic_fit_r2",
+        "interpretation",
+        "dimension"
+      ],
+      "rows": 160
+    },
+    {
+      "path": "fig13/source_curvature_stability_surface.csv",
+      "role": "figure",
+      "bytes": 598,
+      "sha256": "1d0c80539984fe439a7cd022e78e1f09202c509f9e440f6274fb7fb4330a115b",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "dimension",
+        "education",
+        "income",
+        "poverty",
+        "unemployment"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "fig13/source_data_sha256.json",
+      "role": "figure",
+      "bytes": 1758,
+      "sha256": "4f5ef2be92c6d8bb04693b6a75b388810100549387acbd2fb4d998da60556c2d",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy"
+    },
+    {
+      "path": "fig13/source_faithfulness_summary.csv",
+      "role": "figure",
+      "bytes": 476991,
+      "sha256": "996f6b65152eaa92a67abbd64c9953e086426e408300d13f1c57a531f17fef7a",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "case_id",
+        "seed",
+        "base_prediction",
+        "sufficiency_abs_error",
+        "comprehensiveness_abs_change",
+        "random_sufficiency_abs_error",
+        "feature_spearman_exact_contribution",
+        "relation_mass_spatial_queen",
+        "relation_mass_road_connectivity",
+        "relation_mass_mobility_flow",
+        "relation_mass_temporal_forward",
+        "drop_abs_spatial_queen",
+        "drop_abs_road_connectivity",
+        "drop_abs_mobility_flow",
+        "drop_abs_temporal_forward",
+        "sufficiency_advantage"
+      ],
+      "rows": 1920
+    },
+    {
+      "path": "fig13/source_feature_mask_summary.csv",
+      "role": "figure",
+      "bytes": 2807,
+      "sha256": "8d0e74fb34963ecfd94bb88a68885c5f9d802ac2e88ade6683313fd9814d8080",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "feature",
+        "median_mask",
+        "median_exact_contribution"
+      ],
+      "rows": 43
+    },
+    {
+      "path": "fig13/source_fold_paired_comparison.csv",
+      "role": "figure",
+      "bytes": 5241,
+      "sha256": "65944f74ce9fe2cf09d1511070578ff5590ab0a4dc8dbd0a15a80a6227ada789",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "fold_id",
+        "baseline_rmse",
+        "nonlinear_rmse",
+        "baseline_mae",
+        "nonlinear_mae",
+        "scheme",
+        "delta_rmse",
+        "delta_mae"
+      ],
+      "rows": 32
+    },
+    {
+      "path": "fig13/source_pooled_dose_response_surface.csv",
+      "role": "figure",
+      "bytes": 1514,
+      "sha256": "fda55bbbe265bd62bbe288c656af8d3b2c32ed0f02a5da0b2dd090befbe14369",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "dimension",
+        "-2.0",
+        "-1.0",
+        "-0.5",
+        "0.0",
+        "0.5",
+        "1.0",
+        "2.0"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "fig13/source_ses_mobility_relation_summary.csv",
+      "role": "figure",
+      "bytes": 523,
+      "sha256": "9c8d4188121f61a2309df26d4ff2ccede5f2fe518c941bab4949805ca67c015b",
+      "figure": 13,
+      "evidence_version": "V211 R3 proxy",
+      "columns": [
+        "poverty_stratum",
+        "support_stratum",
+        "mean_mass",
+        "min_mass",
+        "max_mass",
+        "n_cells"
+      ],
+      "rows": 6
+    },
+    {
+      "path": "tables/inputs/TEN_DIMENSION_COMPONENT_REGISTRY_V51.csv",
+      "role": "table_input",
+      "bytes": 25348,
+      "sha256": "c58a651fd7e9118c099cc2c38309c7ea79842ae596a5b3cc6cefc4d08762d4fe",
+      "columns": [
+        "component_id",
+        "dimension_id",
+        "channel",
+        "value_column",
+        "mask_column",
+        "source_file",
+        "source_field",
+        "source_filter",
+        "polarity",
+        "scientific_scope",
+        "formal_score_eligible",
+        "missing_rule"
+      ],
+      "rows": 66
+    },
+    {
+      "path": "tables/inputs/compact_53_feature_dictionary.csv",
+      "role": "table_input",
+      "bytes": 4228,
+      "sha256": "f7d17e83cdf1cb6dea2b87bb6332cb4cf22cc08a4092ee9f505a64a4b5a6cf0b",
+      "columns": [
+        "feature",
+        "dimension",
+        "role",
+        "source",
+        "primary"
+      ],
+      "rows": 53
+    },
+    {
+      "path": "tables/inputs/completion.json",
+      "role": "table_input",
+      "bytes": 1142,
+      "sha256": "8ecf6a95ff2311327bccaf388b3dfba00ec2af33f9ca5dd7b94110c3df6631fb"
+    },
+    {
+      "path": "tables/inputs/feature_local_coefficient_summary.csv",
+      "role": "table_input",
+      "bytes": 8487,
+      "sha256": "3af4e793a0ea462b1531c3d2b6b857a44c9906d66bfa059661e0040ecb599508",
+      "columns": [
+        "feature",
+        "is_intercept",
+        "median_local_coefficient",
+        "mean_local_coefficient",
+        "sd_local_coefficient",
+        "q025_local_coefficient",
+        "q975_local_coefficient",
+        "positive_share",
+        "negative_share",
+        "outer_test_evaluations",
+        "coefficient_unit"
+      ],
+      "rows": 44
+    },
+    {
+      "path": "tables/inputs/manuscript_table_display_contract.json",
+      "role": "table_input",
+      "bytes": 11577,
+      "sha256": "7cf6712cb6f07e82e4e10c5456a0bdef39e55dd7698a9748a0bde48e79d297ba"
+    },
+    {
+      "path": "tables/inputs/semantic_proxy_completion.json",
+      "role": "table_input",
+      "bytes": 1428,
+      "sha256": "34bf4efaa94cff1783363ee98c587e3803a4320460cbeff06bcbceea0bdb39df"
+    },
+    {
+      "path": "tables/inputs/source_graph_perturbation_summaries.csv",
+      "role": "table_input",
+      "bytes": 1484,
+      "sha256": "21307840bc4fb0ecee0796bc364af6189fcb968a72e81698b235b780b4064843",
+      "columns": [
+        "relation",
+        "perturbation",
+        "level",
+        "n",
+        "median",
+        "q05",
+        "q95"
+      ],
+      "rows": 16
+    },
+    {
+      "path": "tables/inputs/source_modality_panel_statistics.csv",
+      "role": "table_input",
+      "bytes": 2767,
+      "sha256": "5795d9517e704d169e56c8581a8ab9d355605556e70ddf99500c56fb99cd96c2",
+      "columns": [
+        "condition",
+        "stage",
+        "metric",
+        "n_folds",
+        "q05",
+        "q25",
+        "median",
+        "q75",
+        "q95"
+      ],
+      "rows": 20
+    },
+    {
+      "path": "tables/inputs/source_model_metrics.csv",
+      "role": "table_input",
+      "bytes": 1719,
+      "sha256": "caa8de72ff4e350bbbbd23b156ac7c5a8bd304f06aedaf28cf2301a623a5e9fa",
+      "columns": [
+        "rmse",
+        "mae",
+        "r2",
+        "bias",
+        "model",
+        "best_epoch",
+        "runtime_seconds",
+        "device",
+        "feature_mode",
+        "n_features",
+        "n_train",
+        "n_validation",
+        "n_test",
+        "n_edges_directed",
+        "seed",
+        "reference_count",
+        "train_end",
+        "validation_year",
+        "test_start",
+        "test_end",
+        "temporal_mode",
+        "gtwr_neighbors",
+        "gtwr_tau",
+        "validation_mse"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "tables/inputs/source_partition_panel_statistics.csv",
+      "role": "table_input",
+      "bytes": 1763,
+      "sha256": "33185be0f14a2e2248c9331f986527c51961fd50967f808ac20553b3a3d190b5",
+      "columns": [
+        "scheme",
+        "panel_type",
+        "train_median",
+        "validation_median",
+        "test_median",
+        "n_folds",
+        "test_min",
+        "test_max",
+        "gap_median",
+        "gap_min",
+        "gap_max",
+        "n_test_min",
+        "n_test_max"
+      ],
+      "rows": 16
+    },
+    {
+      "path": "tables/output/Table_1_measurement_framework.csv",
+      "role": "table_output",
+      "bytes": 2207,
+      "sha256": "934d8c8b7bcc658ee5b484b7449b96324c7b9b265dcdccc2733b810363953026",
+      "columns": [
+        "Dimension / variables",
+        "Objective source",
+        "Objective measure (O)",
+        "Platform source",
+        "Platform measure (S)",
+        "Signed discrepancy"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "tables/output/Table_S10_scenario_response_distributions.csv",
+      "role": "table_output",
+      "bytes": 539,
+      "sha256": "10628772427128930c55f4678096e00c77d8c9f7508e0009b7dc26d56d56681e",
+      "columns": [
+        "Scenario",
+        "Outer predictions",
+        "Median Δprediction (pp)",
+        "2.5th percentile",
+        "97.5th percentile",
+        "Fraction with Δ < 0"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "tables/output/Table_S11_study_data_architecture.csv",
+      "role": "table_output",
+      "bytes": 1819,
+      "sha256": "2419485be087f97ed8b6e08e8613cf10bc45cc3bd466fc3af5cbd71be4ef8f76",
+      "columns": [
+        "Component",
+        "Source and support",
+        "Scale",
+        "Analytical role",
+        "Interpretation boundary"
+      ],
+      "rows": 7
+    },
+    {
+      "path": "tables/output/Table_S12_complete_43_variable_dictionary.csv",
+      "role": "table_output",
+      "bytes": 13179,
+      "sha256": "9e9a88d14cc071b800415bf78677815e248330498f914a14e8e83e8081f6f28d",
+      "columns": [
+        "Family / dimension",
+        "Variable",
+        "Model field",
+        "Source and construction",
+        "Unit / interpretation"
+      ],
+      "rows": 43
+    },
+    {
+      "path": "tables/output/Table_S13_measurement_notation.csv",
+      "role": "table_output",
+      "bytes": 2102,
+      "sha256": "af234e3a518b13806b3ea05652a97ea4db9f64935289d1c923f3f05ae9b1c8f0",
+      "columns": [
+        "Quantity",
+        "Notation",
+        "Implemented operation",
+        "Role / interpretation"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "tables/output/Table_S1_data_sources_support.csv",
+      "role": "table_output",
+      "bytes": 1208,
+      "sha256": "0d5aedf73058f5eabb40059e72c895b496996b3b6353026987ca2f8922ecac6f",
+      "columns": [
+        "Source or construct",
+        "Modality",
+        "Analytical role",
+        "Supported records",
+        "Coverage",
+        "Missingness or boundary"
+      ],
+      "rows": 8
+    },
+    {
+      "path": "tables/output/Table_S2_variable_groups.csv",
+      "role": "table_output",
+      "bytes": 2329,
+      "sha256": "d9c9d6192a676dae4d3be54da40481fef728a048457ab35e9ff971d2e19f663f",
+      "columns": [
+        "Dimension",
+        "Construct",
+        "Objective anchors (O)",
+        "Platform-expression polarity (S)",
+        "Signed term"
+      ],
+      "rows": 10
+    },
+    {
+      "path": "tables/output/Table_S3_processing_pipeline.csv",
+      "role": "table_output",
+      "bytes": 1752,
+      "sha256": "45d11bf9b9e592c2abfeaa40d4b6bde46600f117cf4bdd814c6ba49b64818055",
+      "columns": [
+        "Stage",
+        "Input",
+        "Operation",
+        "Outcome access",
+        "Output or audit"
+      ],
+      "rows": 8
+    },
+    {
+      "path": "tables/output/Table_S4_current_model_benchmark.csv",
+      "role": "table_output",
+      "bytes": 293,
+      "sha256": "f2b888cf15bef6f778a1665df391e24489e9a60c83965cc629347565632412cd",
+      "columns": [
+        "Model",
+        "RMSE",
+        "MAE",
+        "R²",
+        "Bias",
+        "Device",
+        "Outer-test n"
+      ],
+      "rows": 6
+    },
+    {
+      "path": "tables/output/Table_S5_matched_representation_metrics.csv",
+      "role": "table_output",
+      "bytes": 409,
+      "sha256": "81cf625a7e4becb4400ef2f05173e3c37d846f5da06c0367d1a04b9896b7609b",
+      "columns": [
+        "Representation",
+        "Features",
+        "Pooled rows",
+        "R²",
+        "RMSE",
+        "MAE",
+        "Fold-level comparison"
+      ],
+      "rows": 3
+    },
+    {
+      "path": "tables/output/Table_S6_modality_outer_test_rmse.csv",
+      "role": "table_output",
+      "bytes": 321,
+      "sha256": "7ec9bf4e0308f11cfd57b0ccba63ff749e1bf094588c96eac0e26c99feb28143",
+      "columns": [
+        "Condition",
+        "n folds",
+        "5th percentile",
+        "25th percentile",
+        "Median RMSE",
+        "75th percentile",
+        "95th percentile"
+      ],
+      "rows": 5
+    },
+    {
+      "path": "tables/output/Table_S7_spatial_partition_diagnostics.csv",
+      "role": "table_output",
+      "bytes": 410,
+      "sha256": "a122dbdae562c0e04496b6add0f90944cb7142984528c4daad6fb96a9b410f6b",
+      "columns": [
+        "Scheme",
+        "n folds",
+        "Train median",
+        "Validation median",
+        "Outer-test median",
+        "Outer-test range",
+        "Test−train median",
+        "Outer-test n range"
+      ],
+      "rows": 4
+    },
+    {
+      "path": "tables/output/Table_S8_local_coefficient_summary.csv",
+      "role": "table_output",
+      "bytes": 2700,
+      "sha256": "9dc1e48d9581ce29f6c6bb63866e3267c849e47b8bb3f98c886c9e62f196e1c6",
+      "columns": [
+        "Family",
+        "Rank",
+        "Feature",
+        "Median β",
+        "2.5th percentile",
+        "97.5th percentile",
+        "Sign agreement",
+        "Local estimates"
+      ],
+      "rows": 43
+    },
+    {
+      "path": "tables/output/Table_S9_graph_perturbation_summary.csv",
+      "role": "table_output",
+      "bytes": 1510,
+      "sha256": "8b69c1048bfaa0e5a311d63e545578e04856a6cb83f241c8f84ba4b9a07cc3c8",
+      "columns": [
+        "Relation",
+        "Perturbation",
+        "Summary level",
+        "n",
+        "Median Δprediction (pp)",
+        "5th percentile",
+        "95th percentile"
+      ],
+      "rows": 16
+    }
+  ]
+}

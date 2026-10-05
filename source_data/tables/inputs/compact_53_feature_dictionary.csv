@@ -1,0 +1,54 @@
+﻿feature,dimension,role,source,primary
+o_d1_composite_z,D1,objective_composite,V210 objective composite,True
+s_d1_augmented_mm_z,D1,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d1_augmented_signed_s_minus_o,D1,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d1_augmented_absolute,D1,absolute_deviation,V211 multimodal semantic proxy,False
+o_d2_composite_z,D2,objective_composite,V210 objective composite,True
+s_d2_augmented_mm_z,D2,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d2_augmented_signed_s_minus_o,D2,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d2_augmented_absolute,D2,absolute_deviation,V211 multimodal semantic proxy,False
+o_d3_composite_z,D3,objective_composite,V210 objective composite,True
+s_d3_augmented_mm_z,D3,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d3_augmented_signed_s_minus_o,D3,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d3_augmented_absolute,D3,absolute_deviation,V211 multimodal semantic proxy,False
+o_d4_composite_z,D4,objective_composite,V210 objective composite,True
+s_d4_augmented_mm_z,D4,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d4_augmented_signed_s_minus_o,D4,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d4_augmented_absolute,D4,absolute_deviation,V211 multimodal semantic proxy,False
+o_d5_composite_z,D5,objective_composite,V210 objective composite,True
+s_d5_augmented_mm_z,D5,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d5_augmented_signed_s_minus_o,D5,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d5_augmented_absolute,D5,absolute_deviation,V211 multimodal semantic proxy,False
+o_d6_composite_z,D6,objective_composite,V210 objective composite,True
+s_d6_augmented_mm_z,D6,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d6_augmented_signed_s_minus_o,D6,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d6_augmented_absolute,D6,absolute_deviation,V211 multimodal semantic proxy,False
+o_d7_composite_z,D7,objective_composite,V210 objective composite,True
+s_d7_augmented_mm_z,D7,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d7_augmented_signed_s_minus_o,D7,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d7_augmented_absolute,D7,absolute_deviation,V211 multimodal semantic proxy,False
+o_d8_composite_z,D8,objective_composite,V210 objective composite,True
+s_d8_augmented_mm_z,D8,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d8_augmented_signed_s_minus_o,D8,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d8_augmented_absolute,D8,absolute_deviation,V211 multimodal semantic proxy,False
+o_d9_composite_z,D9,objective_composite,V210 objective composite,True
+s_d9_augmented_mm_z,D9,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d9_augmented_signed_s_minus_o,D9,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d9_augmented_absolute,D9,absolute_deviation,V211 multimodal semantic proxy,False
+o_d10_composite_z,D10,objective_composite,V210 objective composite,True
+s_d10_augmented_mm_z,D10,subjective_multimodal,V211 multimodal semantic proxy,True
+delta_d10_augmented_signed_s_minus_o,D10,signed_deviation_S_minus_O,V211 multimodal semantic proxy,True
+delta_d10_augmented_absolute,D10,absolute_deviation,V211 multimodal semantic proxy,False
+ses__age_65plus_pct,SES,control,V208 frozen SES,True
+ses__age_under18_pct,SES,control,V208 frozen SES,True
+ses__bachelors_or_higher_pct_25plus,SES,control,V208 frozen SES,True
+ses__black_alone_pct,SES,control,V208 frozen SES,True
+ses__commute_transit_pct,SES,control,V208 frozen SES,True
+ses__commute_walk_pct,SES,control,V208 frozen SES,True
+ses__gross_rent_30plus_pct,SES,control,V208 frozen SES,True
+ses__hispanic_latino_pct,SES,control,V208 frozen SES,True
+ses__log_income_nominal,SES,control,V208 frozen SES,True
+ses__male_pct,SES,control,V208 frozen SES,True
+ses__population_log1p,SES,control,V208 frozen SES,True
+ses__poverty_pct,SES,control,V208 frozen SES,True
+ses__unemployment_pct,SES,control,V208 frozen SES,True

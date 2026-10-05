@@ -1,0 +1,17 @@
+relation,perturbation,level,n,median,q05,q95
+spatial_queen,relation_drop,tract_year_scheme_average,8440,0.0,0.0,0.0
+spatial_queen,edge_weight_half,tract_year_scheme_average,8440,0.0,0.0,0.0
+road_connectivity,relation_drop,tract_year_scheme_average,8440,0.0,0.0,0.0
+road_connectivity,edge_weight_half,tract_year_scheme_average,8440,0.0,0.0,0.0
+mobility_flow,relation_drop,tract_year_scheme_average,8440,-0.000559687614440918,-0.04326270818710326,0.0030015230178832963
+mobility_flow,edge_weight_half,tract_year_scheme_average,8440,-0.00019919872283935547,-0.013258886337280272,0.0014912128448486307
+temporal_forward,relation_drop,tract_year_scheme_average,8440,0.0,0.0,0.0
+temporal_forward,edge_weight_half,tract_year_scheme_average,8440,0.0,0.0,0.0
+spatial_queen,relation_drop,outer_fold_mean,32,0.0,-3.174367539031664e-05,0.0
+spatial_queen,edge_weight_half,outer_fold_mean,32,0.0,-1.5832696476536512e-05,0.0
+road_connectivity,relation_drop,outer_fold_mean,32,0.0,-6.311225615718285e-06,3.790896607824798e-06
+road_connectivity,edge_weight_half,outer_fold_mean,32,0.0,-3.1271837087842865e-06,1.8937758113679414e-06
+mobility_flow,relation_drop,outer_fold_mean,32,-0.003501208731904626,-0.030990635696798562,0.0029733117378782413
+mobility_flow,edge_weight_half,outer_fold_mean,32,-0.0012017598783131689,-0.009555939608253539,0.0013492291822331
+temporal_forward,relation_drop,outer_fold_mean,32,0.0,0.0,0.0
+temporal_forward,edge_weight_half,outer_fold_mean,32,0.0,0.0,0.0

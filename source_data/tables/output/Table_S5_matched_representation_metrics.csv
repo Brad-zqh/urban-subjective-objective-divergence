@@ -1,0 +1,4 @@
+﻿Representation,Features,Pooled rows,R²,RMSE,MAE,Fold-level comparison
+Full primary representation,43,33760,0.4444,2.6013,2.0347,"better in 13/32 R², 13/32 RMSE and 14/32 MAE folds"
+Matched O + S + SES comparator,33,33760,0.4565,2.5728,2.0162,reference comparator; identical rows and folds
+Full minus comparator,+10 signed,33760,-0.0121,0.0284,0.0185,median ΔR² -0.0128; ΔRMSE 0.0178; ΔMAE 0.0172

@@ -1,0 +1,17 @@
+{
+  "source_cubic_response_curves.csv": {
+    "baseline_sha256": "17ad4d08a3f0e9a4f149a9eb82ba666395aff0a4a4fd7cceda778a8faeb12498",
+    "v2_sha256": "17ad4d08a3f0e9a4f149a9eb82ba666395aff0a4a4fd7cceda778a8faeb12498",
+    "identical": true
+  },
+  "source_p10_p90_contrasts.csv": {
+    "baseline_sha256": "9ed254121e3d02bad26bc9461a8f76fa0962c53c061fee7cacafa93071ab62d2",
+    "v2_sha256": "9ed254121e3d02bad26bc9461a8f76fa0962c53c061fee7cacafa93071ab62d2",
+    "identical": true
+  },
+  "scenario_dictionary.csv": {
+    "baseline_sha256": "91a9be1ee1f71841306b6313fce44d6cbae51104580396af097cd81700e4a8f0",
+    "v2_sha256": "91a9be1ee1f71841306b6313fce44d6cbae51104580396af097cd81700e4a8f0",
+    "identical": true
+  }
+}

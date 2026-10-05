@@ -1,0 +1,17 @@
+﻿Relation,Perturbation,Summary level,n,Median Δprediction (pp),5th percentile,95th percentile
+Queen contiguity,Relation removed,Tract-year scheme average,8440,0.000000,0.000000,0.000000
+Queen contiguity,Edge weight halved,Tract-year scheme average,8440,0.000000,0.000000,0.000000
+Road connectivity,Relation removed,Tract-year scheme average,8440,0.000000,0.000000,0.000000
+Road connectivity,Edge weight halved,Tract-year scheme average,8440,0.000000,0.000000,0.000000
+Mobility flow,Relation removed,Tract-year scheme average,8440,-0.000560,-0.043263,0.003002
+Mobility flow,Edge weight halved,Tract-year scheme average,8440,-0.000199,-0.013259,0.001491
+Temporal forward,Relation removed,Tract-year scheme average,8440,0.000000,0.000000,0.000000
+Temporal forward,Edge weight halved,Tract-year scheme average,8440,0.000000,0.000000,0.000000
+Queen contiguity,Relation removed,Outer-fold mean,32,0.000000,-0.000032,0.000000
+Queen contiguity,Edge weight halved,Outer-fold mean,32,0.000000,-0.000016,0.000000
+Road connectivity,Relation removed,Outer-fold mean,32,0.000000,-0.000006,0.000004
+Road connectivity,Edge weight halved,Outer-fold mean,32,0.000000,-0.000003,0.000002
+Mobility flow,Relation removed,Outer-fold mean,32,-0.003501,-0.030991,0.002973
+Mobility flow,Edge weight halved,Outer-fold mean,32,-0.001202,-0.009556,0.001349
+Temporal forward,Relation removed,Outer-fold mean,32,0.000000,0.000000,0.000000
+Temporal forward,Edge weight halved,Outer-fold mean,32,0.000000,0.000000,0.000000

@@ -1,0 +1,6 @@
+﻿Condition,n folds,5th percentile,25th percentile,Median RMSE,75th percentile,95th percentile
+GSV only,32,1.900,2.180,2.655,3.354,4.036
+Google only,32,1.875,2.174,2.662,3.346,3.965
+Flickr only,32,1.874,2.197,2.688,3.375,3.935
+Image only,32,1.867,2.185,2.677,3.353,3.918
+Text only,32,1.874,2.195,2.688,3.368,3.925

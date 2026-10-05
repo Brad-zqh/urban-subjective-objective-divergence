@@ -1,0 +1,37 @@
+{
+  "source_fold_paired_comparison.csv": {
+    "baseline_sha256": "65944f74ce9fe2cf09d1511070578ff5590ab0a4dc8dbd0a15a80a6227ada789",
+    "v2_sha256": "65944f74ce9fe2cf09d1511070578ff5590ab0a4dc8dbd0a15a80a6227ada789",
+    "identical": true
+  },
+  "source_faithfulness_summary.csv": {
+    "baseline_sha256": "996f6b65152eaa92a67abbd64c9953e086426e408300d13f1c57a531f17fef7a",
+    "v2_sha256": "996f6b65152eaa92a67abbd64c9953e086426e408300d13f1c57a531f17fef7a",
+    "identical": true
+  },
+  "source_feature_mask_summary.csv": {
+    "baseline_sha256": "8d0e74fb34963ecfd94bb88a68885c5f9d802ac2e88ade6683313fd9814d8080",
+    "v2_sha256": "8d0e74fb34963ecfd94bb88a68885c5f9d802ac2e88ade6683313fd9814d8080",
+    "identical": true
+  },
+  "source_ses_mobility_relation_summary.csv": {
+    "baseline_sha256": "9c8d4188121f61a2309df26d4ff2ccede5f2fe518c941bab4949805ca67c015b",
+    "v2_sha256": "9c8d4188121f61a2309df26d4ff2ccede5f2fe518c941bab4949805ca67c015b",
+    "identical": true
+  },
+  "source_curvature_sign_audit.csv": {
+    "baseline_sha256": "095df6c5c9a942d5ae0518f022544e22138c9b7e83dc770da834d9b154c9bb88",
+    "v2_sha256": "095df6c5c9a942d5ae0518f022544e22138c9b7e83dc770da834d9b154c9bb88",
+    "identical": true
+  },
+  "source_pooled_dose_response_surface.csv": {
+    "baseline_sha256": "fda55bbbe265bd62bbe288c656af8d3b2c32ed0f02a5da0b2dd090befbe14369",
+    "v2_sha256": "fda55bbbe265bd62bbe288c656af8d3b2c32ed0f02a5da0b2dd090befbe14369",
+    "identical": true
+  },
+  "source_curvature_stability_surface.csv": {
+    "baseline_sha256": "1d0c80539984fe439a7cd022e78e1f09202c509f9e440f6274fb7fb4330a115b",
+    "v2_sha256": "1d0c80539984fe439a7cd022e78e1f09202c509f9e440f6274fb7fb4330a115b",
+    "identical": true
+  }
+}

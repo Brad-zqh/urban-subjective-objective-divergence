@@ -41,10 +41,14 @@ jobs:
           scripts/stage_v211_renderer_snapshot.py
           scripts/stage_v211_model_contract.py
           scripts/check_wheel_contents.py
+          scripts/rebuild_study_tables.py
+          scripts/rebuild_figure06.py
+          scripts/verify_source_data.py
           tests/test_release_boundary.py
           tests/test_dependency_locks.py
           tests/test_staging_manifest_contract.py
           tests/test_wheel_contents.py
+          tests/test_study_source_data.py
       - run: python scripts/check_release_boundary.py
       - run: python scripts/build_v211_release_manifest.py --check
       - run: python scripts/build_v211_external_source_registry.py --check

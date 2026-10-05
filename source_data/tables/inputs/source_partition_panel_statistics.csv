@@ -1,0 +1,17 @@
+scheme,panel_type,train_median,validation_median,test_median,n_folds,test_min,test_max,gap_median,gap_min,gap_max,n_test_min,n_test_max
+axis_recursive,stage_trajectory,2.1829909682273865,2.6994383335113525,2.3701868057250977,8,,,,,,,
+axis_recursive,partition_heatmap,,,2.3701868057250977,8,1.8894113302230835,4.106594562530518,,,,,
+axis_recursive,paired_train_test,,,,8,,,0.44830864667892456,-0.3971138000488281,0.9850115776062012,,
+axis_recursive,support_error_scatter,,,2.3701868057250977,8,,,,,,434.0,1740.0
+polar_north_clockwise_equal_count,stage_trajectory,2.01947557926178,2.7020939588546753,3.0487362146377563,8,,,,,,,
+polar_north_clockwise_equal_count,partition_heatmap,,,3.0487362146377563,8,1.8233741521835327,4.002750873565674,,,,,
+polar_north_clockwise_equal_count,paired_train_test,,,,8,,,0.6569696664810181,0.2511417865753174,1.9339462518692017,,
+polar_north_clockwise_equal_count,support_error_scatter,,,3.0487362146377563,8,,,,,,434.0,1740.0
+rotated45_recursive,stage_trajectory,1.9241769313812256,2.70001757144928,2.934905767440796,8,,,,,,,
+rotated45_recursive,partition_heatmap,,,2.934905767440796,8,1.8366649150848389,4.195120334625244,,,,,
+rotated45_recursive,paired_train_test,,,,8,,,0.7566892504692078,-0.448742151260376,2.0078418254852295,,
+rotated45_recursive,support_error_scatter,,,2.934905767440796,8,,,,,,434.0,1712.0
+y_equal_count_stripes,stage_trajectory,1.7942607402801514,2.5119985342025757,2.565237045288086,8,,,,,,,
+y_equal_count_stripes,partition_heatmap,,,2.565237045288086,8,2.052541494369507,3.3497211933135986,,,,,
+y_equal_count_stripes,paired_train_test,,,,8,,,0.7015392780303955,-0.26976513862609863,1.3238517045974731,,
+y_equal_count_stripes,support_error_scatter,,,2.565237045288086,8,,,,,,434.0,1732.0

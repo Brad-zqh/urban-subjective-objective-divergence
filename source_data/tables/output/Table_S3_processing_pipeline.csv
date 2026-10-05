@@ -1,0 +1,9 @@
+﻿Stage,Input,Operation,Outcome access,Output or audit
+1. Indexing,source-specific observations,"link to tract, health-reference year and boundary vintage",No,unique tract-year keys and source-support flags
+2. Objective harmonization,ten physical and administrative anchors across the environmental dimensions,orient larger values toward the adverse pole; combine within dimension,No,10 objective composites
+3. Multimodal semantic scoring,"Google Maps text, Flickr author/comment text and GSV imagery",fixed adverse-versus-favourable SigLIP2 prompt contrast; within-year z-scoring; equal source and available-modality means,No,10 platform-expression scores plus source support
+4. Missingness handling,text and GSV availability,use observed evidence first; flag only 75 no-source rows for temporal/Queen fallback,No,fallback tier retained for every dimension
+5. Feature assembly,"O, S and 13 socioeconomic covariates",derive 10 signed S−O terms; retain |S−O| for robustness,No,43 primary numeric features; 10 non-primary absolute deviations
+6. Spatial registration,tract geometry and legal relation registry,construct four outcome-blind spatial partitions across two boundary vintages and four outer blocks,No,32 registered outer folds
+7. Model fitting,"rows, features and legal relations",fit compact MM-GTGNNWR proxy within each registered fold,Training rows only,"checkpoints, predictions and exact local coefficients"
+8. Sensitivity analyses,registered folds and fitted checkpoints,"refit matched/modality comparators within the same fold protocol; replay relation, SES and bounded scenarios on frozen models",Training rows for refitted comparators; no outcome access for frozen replays,source-data tables and empirical fold summaries

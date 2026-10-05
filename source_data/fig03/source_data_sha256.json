@@ -1,0 +1,32 @@
+{
+  "source_annual_descriptive_metrics.csv": {
+    "baseline_sha256": "c3b37626cede4fcb49695112211d8ddefec521c2228e7c19d94a475e8885e12e",
+    "v3_sha256": "c3b37626cede4fcb49695112211d8ddefec521c2228e7c19d94a475e8885e12e",
+    "identical": true
+  },
+  "source_descriptive_profile_metrics.csv": {
+    "baseline_sha256": "abdb5f3b0e30087de9821adda65bc9b896fa56aed0eb036d35bdd75cc7d2ea3f",
+    "v3_sha256": "abdb5f3b0e30087de9821adda65bc9b896fa56aed0eb036d35bdd75cc7d2ea3f",
+    "identical": true
+  },
+  "source_locked_2023_metrics.csv": {
+    "baseline_sha256": "8e6050ade6974c0be100d6c50bea6e1b8e4d61d0efe43d7e9ece454d5f69411d",
+    "v3_sha256": "8e6050ade6974c0be100d6c50bea6e1b8e4d61d0efe43d7e9ece454d5f69411d",
+    "identical": true
+  },
+  "source_mm_gtgnnwr_spatial_outer_fold_profiles.parquet": {
+    "baseline_sha256": "1b8678099fb2770ac9ac86588edd89d9578afd693931c2b87a14c31cdd4f5893",
+    "v3_sha256": "1b8678099fb2770ac9ac86588edd89d9578afd693931c2b87a14c31cdd4f5893",
+    "identical": true
+  },
+  "source_registered_prediction_profiles.parquet": {
+    "baseline_sha256": "505a2a3c23e76c462c725b04de355f6cbadaa0aa548298e74cabbebf79ef3d02",
+    "v3_sha256": "505a2a3c23e76c462c725b04de355f6cbadaa0aa548298e74cabbebf79ef3d02",
+    "identical": true
+  },
+  "source_residual_summary.csv": {
+    "baseline_sha256": "33c7e23654ebf19f5fe17e515797817a0c746c76efac7ed9b00400b07ee467e3",
+    "v3_sha256": "33c7e23654ebf19f5fe17e515797817a0c746c76efac7ed9b00400b07ee467e3",
+    "identical": true
+  }
+}

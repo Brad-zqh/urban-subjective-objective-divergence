@@ -1,0 +1,14 @@
+ses_variable,negative_share_pct,positive_share_pct,exact_zero_share_pct,median_standardized_gap
+ses__age_65plus_pct,75.0,25.0,0.0,-0.03431848363897005
+ses__age_under18_pct,0.0,100.0,0.0,1.6048350054938694
+ses__bachelors_or_higher_pct_25plus,100.0,0.0,0.0,-3.250890264785138
+ses__black_alone_pct,0.0,100.0,0.0,1.8586498361244972
+ses__commute_transit_pct,25.0,75.0,0.0,0.3038347164522286
+ses__commute_walk_pct,100.0,0.0,0.0,-0.5371496179252033
+ses__gross_rent_30plus_pct,0.0,100.0,0.0,1.6512724767345701
+ses__hispanic_latino_pct,75.0,25.0,0.0,-0.19176204494480126
+ses__log_income_nominal,100.0,0.0,0.0,-3.8761959185706734
+ses__male_pct,100.0,0.0,0.0,-0.5350388687253389
+ses__population_log1p,100.0,0.0,0.0,-0.5327248105111678
+ses__poverty_pct,0.0,100.0,0.0,3.318059299096636
+ses__unemployment_pct,0.0,100.0,0.0,2.371333772669007

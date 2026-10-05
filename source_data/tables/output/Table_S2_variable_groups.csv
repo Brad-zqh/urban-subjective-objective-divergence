@@ -1,0 +1,11 @@
+﻿Dimension,Construct,Objective anchors (O),Platform-expression polarity (S),Signed term
+Green and blue space,Green and blue space,natural-green fraction; tree canopy; water fraction,little greenery/water ↔ pleasant green-blue environment,S − O; positive = platform expression more adverse than the oriented objective score
+Density and openness,Density and openness,housing density; impervious cover; population density,crowded/enclosed ↔ open/uncrowded,S − O; positive = platform expression more adverse than the oriented objective score
+Access and walkability,Access and walkability,intersection density; largest-component share; walkable-edge density,"difficult walking/access ↔ easy, comfortable walking/access",S − O; positive = platform expression more adverse than the oriented objective score
+Safety and order,Safety and order,all reported records; interpersonal reported records,unsafe/disorderly ↔ safe/orderly,S − O; positive = platform expression more adverse than the oriented objective score
+Cleanliness and maintenance,Cleanliness and maintenance,311 litter-event density; median close days,dirty/poorly maintained ↔ clean/well maintained,S − O; positive = platform expression more adverse than the oriented objective score
+Social vitality and opportunity,Social vitality and opportunity,opportunity density; opportunity-group Shannon diversity,inactive/few opportunities ↔ lively/many opportunities,S − O; positive = platform expression more adverse than the oriented objective score
+Heat stress,Heat stress,summer land-surface-temperature mean and 90th percentile,hot/stuffy ↔ cool/comfortable,S − O; positive = platform expression more adverse than the oriented objective score
+Air pollution,Air pollution,"IDW NO2, O3 and PM2.5 concentrations",polluted/smog/fumes ↔ clean/fresh air,S − O; positive = platform expression more adverse than the oriented objective score
+Noise,Noise,conditional mean dBA; share at or above 55 dBA,loud/disturbing ↔ quiet,S − O; positive = platform expression more adverse than the oriented objective score
+Traffic pressure,Traffic pressure,directional VMT/day; regional and segment inverse speed,congested/stressful ↔ smooth/uncongested travel,S − O; positive = platform expression more adverse than the oriented objective score

@@ -1,0 +1,9 @@
+﻿Source or construct,Modality,Analytical role,Supported records,Coverage,Missingness or boundary
+Study panel,linked tract-year panel,common index for all current analyses,"8,440",100%,885 tracts; 2014–2023
+CDC PLACES frequent mental distress,model-based health estimate,area-level outcome,"8,440",100%,not an individual diagnosis
+At least one text source,Google review text or Flickr author/comment text,platform-expression evidence,"7,771",92.07%,missingness retained in support flags
+Google Street View imagery,street-level image,visible-environment evidence,"8,232",97.54%,source support retained
+Either text or GSV imagery,cross-modal union,observed multimodal subjective proxy,"8,365",99.11%,primary observed-support tier
+Both text and GSV imagery,cross-modal intersection,high-support multimodal subset,"7,638",90.50%,not required for inclusion
+No text and no GSV imagery,no direct platform/image support,flagged fallback tier,75,0.89%,explicit temporal/Queen fallback; never silently treated as observed
+Raw multimodal channels,six separate channels,retained outside compact numeric reduction,source-specific,source-specific,Google image/text; Flickr image/author/comment text; GSV image

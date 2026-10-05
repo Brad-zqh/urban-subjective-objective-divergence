@@ -24,6 +24,7 @@ scenario responses provide complementary descriptions of the fitted model.
 | Quantitative visualizations, including spatial predictions, signed coefficients, relation diagnostics and socioeconomic analyses | [`figure_snapshot/figures/`](figure_snapshot/figures/) |
 | Earlier registered quantitative-figure suite | [`figures/`](figures/) and [`reproducibility/`](reproducibility/) |
 | Figure-source provenance and external-data registry | [`data_manifest/`](data_manifest/) |
+| Released numerical source data and study tables | [`source_data/`](source_data/) |
 
 The quantitative figure code includes the multiyear coefficient maps and
 signed-sensitivity panels used in the current analysis. Figure scripts and their
@@ -46,9 +47,11 @@ they do not rerun the study's spatial folds.
 
 ## Data and reproducibility
 
-The figure renderers require derived source tables and Chicago tract geometry.
-The public repository provides code and a [source-data registry](data_manifest/README.md)
-but does not distribute these inputs or the complete training runner. See the
+The repository includes selected derived [figure and table source data](source_data/README.md),
+their SHA-256 manifest, and code that rebuilds Table 1, Supplementary Tables
+S1–S13 and the separate synthetic Fig. 6 from released inputs. The remaining
+figure renderers still require additional geometry or upstream results; the
+complete training runner and restricted platform inputs are not distributed. See the
 [Data Availability](docs/DATA_AVAILABILITY.md) and
 [Code Availability](docs/CODE_AVAILABILITY.md) statements for the release scope
 and access information. Place-linked text and imagery are analysed as
@@ -59,4 +62,6 @@ potential.
 
 Please use [`CITATION.cff`](CITATION.cff) when citing the code. The original code
 is released under the [MIT licence](LICENSE); bundled fonts retain their
-[separate terms](THIRD_PARTY_NOTICES.md).
+[separate terms](THIRD_PARTY_NOTICES.md). The authors' original rights in the
+released [source data](source_data/) are licensed separately under
+[CC BY 4.0](source_data/LICENSE.md); third-party rights are excluded.

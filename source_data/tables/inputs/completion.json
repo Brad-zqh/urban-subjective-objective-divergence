@@ -1,0 +1,27 @@
+{
+  "status": "PROVISIONAL_COMPACT_NUMERIC_CANDIDATE",
+  "generated_at_utc": "2026-09-04T15:09:05.896224+00:00",
+  "rows": 8440,
+  "primary_numeric_features": 43,
+  "primary_structure": "10 objective composites + 10 multimodal subjective scores + 10 signed S-O + 13 SES controls",
+  "robustness_features": "10 absolute deviations retained but not primary",
+  "raw_multimodal_channels": [
+    "google_image",
+    "google_text",
+    "flickr_image",
+    "flickr_author_text",
+    "flickr_comment_text",
+    "gsv_image"
+  ],
+  "raw_multimodal_channels_status": "retained outside compact numeric reduction",
+  "health_outcome_read": false,
+  "health_training_steps": 0,
+  "proxy_analysis": true,
+  "formal": false,
+  "imputation_policy": "V211 observed text+GSV image first; only 75 no-source rows use explicitly flagged temporal/Queen fallback",
+  "source_sha256": {
+    "v211": "d31c978f8eb433577742cdf79584a7982855e5e74ccab0bc8131ef2534f1ba8e",
+    "core": "d57580d6644fa60ae26f05c9a5fbe148eb3da78413c88063f34150cc7b9180ba"
+  },
+  "output_sha256": "926dbf24eddebdf6903c9912b241058b6a516b3551f6fa1918dc23f4d9f70a38"
+}

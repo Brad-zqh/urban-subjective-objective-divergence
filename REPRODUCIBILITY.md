@@ -5,11 +5,11 @@ analysis. It separates a figure-only audit from a complete retraining run.
 
 ## Supported public run
 
-The current visualization source closure contains 72 Python files in
+The current visualization source closure contains 73 Python files in
 `figure_snapshot/figures/`, including the revised signed-sensitivity and
 multiyear coefficient map scripts. The known-truth simulation uses separate
-V154 code. Figure source data and Chicago geometry remain in the authorised
-research workspace.
+V154 code. Selected figure source data are included under `source_data/`;
+Chicago geometry remains in the authorised research workspace.
 
 Inspect the earlier quantitative-suite registry separately:
 
@@ -17,8 +17,10 @@ Inspect the earlier quantitative-suite registry separately:
 python reproducibility/v211_nature_figures_20260906/run_flagship_figures.py --dry-run
 ```
 
-The full render command becomes supported only after reviewed derived source
-tables are staged under the documented repository-relative paths.
+Selected derived source tables are now included under `source_data/`. The
+complete 18-figure legacy runner remains unsupported on a clean clone because
+its external inputs and geometry have not all been staged. Do not interpret a
+source-data hash pass as a successful render of every current manuscript panel.
 
 Each maintained family must finish with:
 
@@ -30,17 +32,31 @@ Each maintained family must finish with:
 Manuscript drafts, figure placement audits and editorial working files are
 maintained in the authors' private workspace.
 
-The clean-clone code release currently vendors renderer code and its
-hash-verified fonts, but not the derived source tables or Chicago geometry.
-Therefore `--dry-run`, manifest checks and smoke tests are public-tier
-operations; complete figure rendering remains blocked until table-level
-disclosure/access and geometry packaging are recorded.
+The clean-clone release includes selected derived figure source data, all
+14 current table CSVs, and their table-generation inputs. The separate V154
+known-truth Fig. 6 is rebuildable from its released synthetic inputs. Other
+figures may still need Chicago geometry, upstream V211 result tables or earlier
+visual revision outputs. Full current-figure rendering remains blocked until
+those dependencies and their access terms are recorded.
 
 `data_manifest/v211_external_figure_source_tables.json` registers all 46
-current `source_*` tables across the 18 figures by repository-relative intended
-path, byte count and SHA-256. Every entry remains
-`pending_disclosure_and_licence_review` and `included_in_release=false`; the
-registry is evidence for table-by-table review, not permission to redistribute.
+historical `source_*` tables across the earlier 18-figure suite. Its entries
+remain external. They are a different snapshot from the current manuscript's
+Fig. 2–13 source files under `source_data/`; the two registries must not be
+merged or treated as interchangeable numerical versions.
+
+For the released source-data and table checks, run:
+
+```bash
+python scripts/verify_source_data.py
+python scripts/rebuild_study_tables.py --output-dir /tmp/rebuilt-study-tables
+python scripts/rebuild_figure06.py
+```
+
+The test suite checks that the rebuilt Table 1 and S1–S13 CSVs are byte-identical
+to their released counterparts, and that the V154 Fig. 6 has 20 panels and an
+unchanged numeric interval source. It does not rerun V211 training or validate
+all main-figure renderers.
 
 The same release manifest also freezes the byte-identical PyTorch architecture
 contract used by the V211 R3 run. Its original `V207TransparentMMGTGNNWR` class

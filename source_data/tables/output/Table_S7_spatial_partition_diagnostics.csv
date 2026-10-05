@@ -1,0 +1,5 @@
+﻿Scheme,n folds,Train median,Validation median,Outer-test median,Outer-test range,Test−train median,Outer-test n range
+Axis-recursive,8,2.183,2.699,2.370,1.889–4.107,0.448,434–1740
+Polar equal-count,8,2.019,2.702,3.049,1.823–4.003,0.657,434–1740
+Rotated 45° recursive,8,1.924,2.700,2.935,1.837–4.195,0.757,434–1712
+Y-stripes equal-count,8,1.794,2.512,2.565,2.053–3.350,0.702,434–1732

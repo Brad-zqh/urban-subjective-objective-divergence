@@ -1,0 +1,16 @@
+metric,scheme,improved_percent
+r2,pooled,40.625
+r2,axis_recursive,50.0
+r2,rotated45_recursive,25.0
+r2,y_equal_count_stripes,37.5
+r2,polar_north_clockwise_equal_count,50.0
+rmse,pooled,40.625
+rmse,axis_recursive,50.0
+rmse,rotated45_recursive,25.0
+rmse,y_equal_count_stripes,37.5
+rmse,polar_north_clockwise_equal_count,50.0
+mae,pooled,43.75
+mae,axis_recursive,50.0
+mae,rotated45_recursive,25.0
+mae,y_equal_count_stripes,50.0
+mae,polar_north_clockwise_equal_count,50.0

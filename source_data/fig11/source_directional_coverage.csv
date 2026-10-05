@@ -1,0 +1,8 @@
+scenario,fraction_improved
+D1_green_water_plus_1sd,0.4990521327014218
+D5_clean_maintenance_minus_1sd,0.791824644549763
+D7_heat_mitigation_minus_1sd,0.4895734597156398
+D8_air_pollution_minus_1sd,0.7030805687203792
+D9_noise_mitigation_minus_1sd,0.30355450236966824
+D10_traffic_pressure_minus_1sd,0.7324644549763033
+joint_six_dimensions,0.5765402843601896

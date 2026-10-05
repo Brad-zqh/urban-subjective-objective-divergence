@@ -27,7 +27,7 @@ if str(FIGURES) not in sys.path:
 
 from nature_viz_common import ROOT, DIV, INK, GRID, setup_style, clean_axes, sha256  # noqa: E402
 
-RUN = ROOT / "workstreams/RQ2_model/runs/figure_v154_feng_known_truth_mm_gtgnnwr"
+RUN = ROOT.parent / "source_data/fig06"
 METRICS_PATH = RUN / "v154_combined_model_metrics.csv"
 SURFACES_PATH = RUN / "v154_combined_recovery_surfaces.csv"
 OUT = ROOT / "figures/v154_known_truth_maintext_v2"
@@ -174,8 +174,8 @@ def main() -> None:
         "models_in_summary": MODELS,
         "excluded_models": ["GTCNNWR"],
         "display_limits": "shared within each beta column; 1st-99th percentile display clipping only",
-        "source_hashes": {str(METRICS_PATH.relative_to(ROOT)): sha256(METRICS_PATH),
-                          str(SURFACES_PATH.relative_to(ROOT)): sha256(SURFACES_PATH)},
+        "source_hashes": {str(METRICS_PATH.relative_to(ROOT.parent)): sha256(METRICS_PATH),
+                          str(SURFACES_PATH.relative_to(ROOT.parent)): sha256(SURFACES_PATH)},
         "geometry": {
             "map_width_range": float(np.ptp(widths)),
             "map_height_range": float(np.ptp(heights)),

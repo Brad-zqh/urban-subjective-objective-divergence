@@ -1,0 +1,22 @@
+{
+  "source_partition_ablation.csv": {
+    "baseline_sha256": "6401201506d753fb1ecea23001a17b85fccbd0a6975136cd941526556b7d7284",
+    "v2_sha256": "6401201506d753fb1ecea23001a17b85fccbd0a6975136cd941526556b7d7284",
+    "identical": true
+  },
+  "source_block_ablation.csv": {
+    "baseline_sha256": "8f3993f2c4ff12962725e3bc58fe7aeb4af062a966f8095092acd44de897378a",
+    "v2_sha256": "8f3993f2c4ff12962725e3bc58fe7aeb4af062a966f8095092acd44de897378a",
+    "identical": true
+  },
+  "source_all_model_fold_metrics.csv": {
+    "baseline_sha256": "b515728548333df3b53443203de5fb719e98f8e176a9ac787a20fa4c35f82bf5",
+    "v2_sha256": "b515728548333df3b53443203de5fb719e98f8e176a9ac787a20fa4c35f82bf5",
+    "identical": true
+  },
+  "source_within_fold_r2_profiles.csv": {
+    "baseline_sha256": "7cf5eb69a5e6d76220834ffec6201b97e5d74b4b8de3427de3a1a8a377560560",
+    "v2_sha256": "7cf5eb69a5e6d76220834ffec6201b97e5d74b4b8de3427de3a1a8a377560560",
+    "identical": true
+  }
+}

@@ -1,0 +1,8 @@
+﻿Scenario,Outer predictions,Median Δprediction (pp),2.5th percentile,97.5th percentile,Fraction with Δ < 0
+Green/blue space +1 SD,"33,760",0.0109,-0.1850,0.1779,43.6%
+Maintenance burden −1 SD,"33,760",-0.0402,-0.3413,0.1064,70.0%
+Heat stress −1 SD,"33,760",-0.0317,-0.5148,0.4857,50.8%
+Air pollution −1 SD,"33,760",-0.0046,-0.3843,0.7880,55.6%
+Noise −1 SD,"33,760",0.0299,-0.1194,0.1652,35.2%
+Traffic pressure −1 SD,"33,760",-0.0637,-0.2289,0.2949,69.6%
+Joint six-dimension shift,"33,760",0.0148,-0.7282,0.6262,49.3%
