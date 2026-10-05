@@ -35,6 +35,5 @@ def test_table_csvs_rebuild_byte_identically(tmp_path: Path) -> None:
 
 
 def test_figure06_rebuilds_from_separate_v154_synthetic_data() -> None:
-    subprocess.run(
-        [sys.executable, str(FIGURE06)], cwd=ROOT, check=True, capture_output=True, text=True
-    )
+    # Keep renderer stdout/stderr visible so a clean-run platform failure is actionable.
+    subprocess.run([sys.executable, str(FIGURE06)], cwd=ROOT, check=True)
