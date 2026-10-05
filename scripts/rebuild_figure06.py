@@ -18,8 +18,10 @@ OUTPUT = FIGURES / "v154_known_truth_maintext_v9"
 REFERENCE = ROOT / "source_data/fig06/source_model_metric_intervals.csv"
 
 
-def sha256(path: Path) -> str:
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+def csv_sha256(path: Path) -> str:
+    """Hash CSV content independent of the host's CRLF/LF line endings."""
+    data = path.read_bytes().replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 def main() -> int:
@@ -36,12 +38,12 @@ def main() -> int:
     if validation.get("panels") != 20 or not all(validation["checks"].values()):
         raise RuntimeError("Figure 6 panel or layout validation failed")
     actual = OUTPUT / "source_model_metric_intervals.csv"
-    if sha256(actual) != sha256(REFERENCE):
+    if csv_sha256(actual) != csv_sha256(REFERENCE):
         raise RuntimeError("Figure 6 numeric source data changed during rendering")
     for extension in ("jpg", "svg"):
         if not (OUTPUT / f"Fig_v154_known_truth_maintext_v9.{extension}").is_file():
             raise FileNotFoundError(extension)
-    print("Verified V154 Figure 6: 20 panels and byte-identical interval source data")
+    print("Verified V154 Figure 6: 20 panels and identical CSV content (LF-normalized)")
     return 0
 
 
